@@ -38,7 +38,7 @@
         }
         
         function resetTimer() {
-            clearTimeout(time);
+            clearTimeout(time); 
             time = setTimeout(logout,180000);  // time is in milliseconds
         }
     },
