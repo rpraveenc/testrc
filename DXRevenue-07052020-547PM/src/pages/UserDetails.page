@@ -1,0 +1,19 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="true" >
+    
+    <apex:includeLightning /> 
+    
+    <apex:includeScript value="/lightning/lightning.out.js" />
+    <!-- <apex:param name="contactId" value="{!$CurrentPage.parameters.Id}"/> -->
+    <div id="LightningComponentid" />    
+    <script>  
+    var recordId  = "{!$CurrentPage.parameters.Id}";
+    //alert(recordId);
+    $Lightning.use("c:HomeApp", function() {
+        $Lightning.createComponent("c:HomeCmp",
+             {"conId":recordId},
+        "LightningComponentid",function(cmp) {
+            
+        });
+    });
+    </script>
+</apex:page>

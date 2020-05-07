@@ -1,0 +1,4277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>API_Authentication_Error</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Authentication Error</shortDescription>
+        <value>An authentication issue occurred. Verify your Username and Activation code and try again.</value>
+    </labels>
+    <labels>
+        <fullName>API_Callout_Error</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Callout Error</shortDescription>
+        <value>An unexpected error occurred, please contact salesforce.com.</value>
+    </labels>
+    <labels>
+        <fullName>API_Callout_Success</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Callout Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>API_Callout_Timeout_Error</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Callout Timeout Error</shortDescription>
+        <value>COA transaction timed out. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>API_Error_400</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Error 400</shortDescription>
+        <value>Bad Request, invalid URI or parameters.</value>
+    </labels>
+    <labels>
+        <fullName>API_Error_404</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Error 404</shortDescription>
+        <value>There are no associated Partner Product Catalogs for the selected Partner Channel Contract Term, please contact salesforce.com if you feel you have received this message in error.</value>
+    </labels>
+    <labels>
+        <fullName>API_Error_500</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Error 500</shortDescription>
+        <value>An error has occurred and the request couldn’t be completed. Please try again and contact salesforce.com if errors continue.</value>
+    </labels>
+    <labels>
+        <fullName>API_Error_OldOrder</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Error OldOrder</shortDescription>
+        <value>Invalid Order - Orders created with a previous COA version cannot be sent.</value>
+    </labels>
+    <labels>
+        <fullName>API_Error_OrderStartDate</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Error OrderStartDate</shortDescription>
+        <value>Invalid Service Start Date - Service Orders cannot be sent with Start Date for past dates.</value>
+    </labels>
+    <labels>
+        <fullName>API_Order_Unexpected_Error</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Order Unexpected Error</shortDescription>
+        <value>An unexpected error occurred.</value>
+    </labels>
+    <labels>
+        <fullName>API_UncommitedWork_Error</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API UncommitedWork Error</shortDescription>
+        <value>There was an error on callout caused by uncommitted records. Please review your changes and try again.</value>
+    </labels>
+    <labels>
+        <fullName>API_Unknown_Error</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>API Unknown Error</shortDescription>
+        <value>An unknown error has occurred and the request couldn&apos;t be completed. Please try again and contact salesforce.com if errors continue.</value>
+    </labels>
+    <labels>
+        <fullName>Add_Invoice_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>show a Invoice Description text field below the product name</shortDescription>
+        <value>Add Invoice Description</value>
+    </labels>
+    <labels>
+        <fullName>Admin_Licences_validation_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin licenses Validation Response</shortDescription>
+        <value>The reduction you specified removes all admin licenses from the customer&apos;s org. Revise license quantities so at least one admin license remains.</value>
+    </labels>
+    <labels>
+        <fullName>An_Error_Occurred</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>An Error Occurred</shortDescription>
+        <value>An Error Occurred</value>
+    </labels>
+    <labels>
+        <fullName>At_Least_One_Admin_License_Required</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>At least one admin license required.</shortDescription>
+        <value>This order must include at least one product with an admin license.</value>
+    </labels>
+    <labels>
+        <fullName>Auto_renewal_validation_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auto Renewal Validation Response</shortDescription>
+        <value>The contract on this order isn&apos;t set to autorenew. Log a case in the Partner Community to request autorenewal for the contract.</value>
+    </labels>
+    <labels>
+        <fullName>COA_AcceptTermsAndConditions</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not all terms and conditions accepted</shortDescription>
+        <value>You must agree to all terms and conditions before submitting an order.</value>
+    </labels>
+    <labels>
+        <fullName>COA_Actions</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Actions</shortDescription>
+        <value>Actions</value>
+    </labels>
+    <labels>
+        <fullName>COA_ActivationCode_Text_Credentials</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for ActivationCode field.</shortDescription>
+        <value>Activation Code :</value>
+    </labels>
+    <labels>
+        <fullName>COA_ActiveModalUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on header for active modal.</shortDescription>
+        <value>Edit Order Destination</value>
+    </labels>
+    <labels>
+        <fullName>COA_AddOn</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add On Label</shortDescription>
+        <value>Add On</value>
+    </labels>
+    <labels>
+        <fullName>COA_AddOnPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Addon On PopOver Label</shortDescription>
+        <value>Add products or licenses for a customer who&apos;s ordered from you before. If we can&apos;t find an active contract for the customer, an Initial order is submitted instead of an Add On.</value>
+    </labels>
+    <labels>
+        <fullName>COA_AllProducts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label for All Products list title</shortDescription>
+        <value>All Products</value>
+    </labels>
+    <labels>
+        <fullName>COA_An_Error_Occurred</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>An Error Occurred</shortDescription>
+        <value>An Error Occurred</value>
+    </labels>
+    <labels>
+        <fullName>COA_ApiKey_Text_Credentials</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for ApiKey field.</shortDescription>
+        <value>API Key :</value>
+    </labels>
+    <labels>
+        <fullName>COA_ApplicationName</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Application Name Label</shortDescription>
+        <value>APPLICATION NAME</value>
+    </labels>
+    <labels>
+        <fullName>COA_AssistiveTextRemove</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assistive text for remove buttons</shortDescription>
+        <value>remove</value>
+    </labels>
+    <labels>
+        <fullName>COA_BillingAddress</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Billing Address Label</shortDescription>
+        <value>Billing Address</value>
+    </labels>
+    <labels>
+        <fullName>COA_BillingFrequency</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Billing Frequency Label</shortDescription>
+        <value>Billing Frequency (months)</value>
+    </labels>
+    <labels>
+        <fullName>COA_BlankProdCredUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed when prod setting is blank</shortDescription>
+        <value>Set up a production connection using the credentials you received from Partner Operations. After you connect, your contract and product catalog data is imported to the Channel Order App and you can send orders to Salesforce for billing and activation.</value>
+    </labels>
+    <labels>
+        <fullName>COA_BlankTestCredUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed when test setting is blank</shortDescription>
+        <value>Set up a connection to a test environment. Salesforce doesn&apos;t receive or process the orders sent to your test environment.</value>
+    </labels>
+    <labels>
+        <fullName>COA_Cancellation</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation Label</shortDescription>
+        <value>Cancellation</value>
+    </labels>
+    <labels>
+        <fullName>COA_CancellationInvalidTimeFrame</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation invalid time frame.</shortDescription>
+        <value>The contract on this order renews in 5 days or less, so the order will remain active for the next contract period. We&apos;ll apply to the cancellation to the contract period that follows.</value>
+    </labels>
+    <labels>
+        <fullName>COA_CancellationPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation PopOver Label</shortDescription>
+        <value>End a contract with an existing customer and cancel all products.</value>
+    </labels>
+    <labels>
+        <fullName>COA_CancellationTerms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation Terms Label</shortDescription>
+        <value>Cancellation Terms (days)</value>
+    </labels>
+    <labels>
+        <fullName>COA_CannotSetActiveCredentials</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when unable to set active cred.</shortDescription>
+        <value>The order destination that you selected hasn&apos;t been configured yet. To send orders to this destination, first provide its login credentials.</value>
+    </labels>
+    <labels>
+        <fullName>COA_CannotSubmitOrders</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The COA cannot submit orders</shortDescription>
+        <value>The COA can&apos;t submit orders to Salesforce.</value>
+    </labels>
+    <labels>
+        <fullName>COA_City</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>City Label</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>COA_CloneOrderWithInaPCCTError</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error shown on cloning order with inactive PCCT.</shortDescription>
+        <value>The contract on this order is not active. Try cloning another order.</value>
+    </labels>
+    <labels>
+        <fullName>COA_Company</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Label</shortDescription>
+        <value>Company</value>
+    </labels>
+    <labels>
+        <fullName>COA_CompanyName</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Name Label</shortDescription>
+        <value>Company Name</value>
+    </labels>
+    <labels>
+        <fullName>COA_ConfirmCloneAction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Clone Action</shortDescription>
+        <value>Are you sure you want to clone this order?</value>
+    </labels>
+    <labels>
+        <fullName>COA_ConfirmRecallAction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Recall Action</shortDescription>
+        <value>Are you sure you want to recall this order?</value>
+    </labels>
+    <labels>
+        <fullName>COA_ConfirmSubmitAction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Submit Action</shortDescription>
+        <value>Are you sure you want to submit this order?</value>
+    </labels>
+    <labels>
+        <fullName>COA_ContinueButton</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue Button.</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>COA_ContractAutoRenew</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Auto Renew Label</shortDescription>
+        <value>Contract Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>COA_ContractLength</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Length Label</shortDescription>
+        <value>Contract Length (months)</value>
+    </labels>
+    <labels>
+        <fullName>COA_ContractType</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Type Label</shortDescription>
+        <value>Contract Type</value>
+    </labels>
+    <labels>
+        <fullName>COA_Could_Not_Find_Customer</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not find customer.</shortDescription>
+        <value>Could not find a customer with Id {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_Could_Not_Find_Service_Order</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not find service order.</shortDescription>
+        <value>Could not find a service order with Id {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_Country</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Country Label</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>COA_CurrentLicensesPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for Current licenses popOver</shortDescription>
+        <value>Reflects the current number of licenses at the time the order was submitted.</value>
+    </labels>
+    <labels>
+        <fullName>COA_CurrentLicensesTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;Current Licenses&apos; title</shortDescription>
+        <value>CURRENT LICENSES</value>
+    </labels>
+    <labels>
+        <fullName>COA_CustomActionContinue</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Action Continue</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>COA_CustomTerms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Terms Label</shortDescription>
+        <value>Custom terms</value>
+    </labels>
+    <labels>
+        <fullName>COA_Custom_Fields_Title</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Fields Title</shortDescription>
+        <value>Custom Fields</value>
+    </labels>
+    <labels>
+        <fullName>COA_CustomerHasNoOrders_Error_Message</fullName>
+        <categories>COA, ValidationError</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COA_NoActiveOrderData_Error_Message</shortDescription>
+        <value>We couldn&apos;t process the reduction or cancellation because the customer doesn&apos;t have an active contract for the products on the order. Verify the customer and products you specified, and then try again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_CustomerInformationTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Information Title Label</shortDescription>
+        <value>Customer Information</value>
+    </labels>
+    <labels>
+        <fullName>COA_CustomerType</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Type Label</shortDescription>
+        <value>Customer Type</value>
+    </labels>
+    <labels>
+        <fullName>COA_Customers</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customers</shortDescription>
+        <value>Customers</value>
+    </labels>
+    <labels>
+        <fullName>COA_DateCustomerAcceptedSFDCAgreementTooltip</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date Customer Accepted SFDC Agreement Tooltip</shortDescription>
+        <value>Provide the date that the customer accepted the Initial order related to this {0}</value>
+    </labels>
+    <labels>
+        <fullName>COA_DateCustomerAcceptedSFDCServiceAgreement</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date Customer Accepted Salesforce Service Agreement Label</shortDescription>
+        <value>Date Customer Accepted Salesforce Service Agreement</value>
+    </labels>
+    <labels>
+        <fullName>COA_DatePartnerAcceptedSfdcServiceAgmt</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required field when Service Order is not a cancellation order</shortDescription>
+        <value>Date Partner Accepted Salesforce Agreement is a required field for this contract type.</value>
+    </labels>
+    <labels>
+        <fullName>COA_DatePartnerReceivedCustomerOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date Partner Received Customer Order Label</shortDescription>
+        <value>Date Partner Received Customer Order</value>
+    </labels>
+    <labels>
+        <fullName>COA_Days</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label for Ends in x days Status column at product list</shortDescription>
+        <value>Days</value>
+    </labels>
+    <labels>
+        <fullName>COA_DeleteButton</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete text button.</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>COA_Description</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description label for the item table component</shortDescription>
+        <value>Description:</value>
+    </labels>
+    <labels>
+        <fullName>COA_EditModalHeaderDescriptionUIText</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Provide new credentials for a production connection or test environment.</shortDescription>
+        <value>Provide new credentials for a production connection or test environment.</value>
+    </labels>
+    <labels>
+        <fullName>COA_EditModalHeaderUIText</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Provide new credentials for a production connection or test environment.</shortDescription>
+        <value>Edit Settings</value>
+    </labels>
+    <labels>
+        <fullName>COA_EndsInDays</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label for Ends in x days Status column at product list</shortDescription>
+        <value>Ends in {0} Days</value>
+    </labels>
+    <labels>
+        <fullName>COA_EntityType</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Entity Type Text</shortDescription>
+        <value>entity type</value>
+    </labels>
+    <labels>
+        <fullName>COA_ErrorCloningOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Cloning Order</shortDescription>
+        <value>Error Cloning Order</value>
+    </labels>
+    <labels>
+        <fullName>COA_ErrorDuringRecall</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error during Recall Order</shortDescription>
+        <value>Error during order recall: {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ErrorDuringSubmit</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error during order submit:</shortDescription>
+        <value>Error during order submit: {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ErrorOnCredentialsSave</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error on saving credentials</shortDescription>
+        <value>We couldn&apos;t connect to your test environment. We either didn&apos;t recognize the credentials you provided, or the endpoint is associated with a production connection. Verify your credentials and endpoint, and then try again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ErrorOnCredentialsSync</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error on sync credentials</shortDescription>
+        <value>We ran into an issue connecting the Channel Order App to Salesforce. Ensure that the endpoint URL is authorized in Remote Site Settings configuration. For help, log a case in the Partner Community.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ErrorOnSetupUnknown</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unknown Error on setup credentials</shortDescription>
+        <value>We ran into an issue connecting the Channel Order App to Salesforce. For help, log a case in the Partner Community.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ErrorWithStandardTerms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The selected Partner Contract has missing fields</shortDescription>
+        <value>Contract length, contract auto renew, billing frequency, renewal terms and cancellation terms are required fields for the selected contract</value>
+    </labels>
+    <labels>
+        <fullName>COA_ExistingCustomer</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Existing Customer Label</shortDescription>
+        <value>Existing customer</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeCancellationApproval</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation Approval label</shortDescription>
+        <value>Cancellation Approval</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeCancellationDescription</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description text in finalize step for cancellation orders</shortDescription>
+        <value>A cancellation order permanently removes your products from the customer&apos;s org. If any products are outside the cancellation terms, we continue to bill the customer for the remainder of the contract.</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeCancellationErrorMessage</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation Error Message</shortDescription>
+        <value>This field should be YES to continue</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeCancellationHeader</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation Header Message</shortDescription>
+        <value>You&apos;re about to submit a cancellation order for {0}. The order applies to Org ID- {1}</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeCancellationStartDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Override process cancellation message</shortDescription>
+        <value>We&apos;ll process the cancellation on.</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeGeneralContractRulesSubtitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General terms and conditions title</shortDescription>
+        <value>General Terms &amp; Conditions</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeGeneralContractRulesText</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General terms and conditions text</shortDescription>
+        <value>general terms &amp; conditions</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeItemTableHeader</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name of the item table in finalize component</shortDescription>
+        <value>Order Summary</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeSpecificRules</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>specific rules text</shortDescription>
+        <value>specific rules</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeTermsAndConditionsSubtitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Terms and Conditions</shortDescription>
+        <value>General Terms &amp; Conditions</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeTermsAndConditionsTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Finalize terms and conditions title</shortDescription>
+        <value>Terms &amp; Conditions</value>
+    </labels>
+    <labels>
+        <fullName>COA_FinalizeYesWarning</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>&apos;YES&apos; warning message</shortDescription>
+        <value>To continue, type YES into the approval field. We&apos;ll process the cancellation on {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_General_Validation_Error_Message</fullName>
+        <categories>COA, ValidationError</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General purpose validation failure error message</shortDescription>
+        <value>We couldn&apos;t submit your order. Review the highlighted issues and try again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_GotItButton</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Got It button text</shortDescription>
+        <value>Got It</value>
+    </labels>
+    <labels>
+        <fullName>COA_InitialAddOnLegalTxt_Part01</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General terms and conditions for an add-on or an initial order</shortDescription>
+        <value>By submitting this Service Order, you warrant that you are at least 18 years old and that you have the legal capacity and authorization to bind the company, organization, or other entity that has authorized you to submit this Service Order on its behalf (and for avoidance of doubt, “you” shall be deemed to include such entity for purposes of this paragraph).  Furthermore, by submitting a Service Order, you confirm, represent and warrant that: (1) you have received a binding order from your customer associated with this Service Order that corresponds to the customer name and required order information that you have reported for this Service Order;</value>
+    </labels>
+    <labels>
+        <fullName>COA_InitialAddOnLegalTxt_Part02</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>General terms and conditions for an add-on or an initial order</shortDescription>
+        <value>(2) as part of your acceptance of the Customer’s order associated with this Service Order you have documented the Customer’s agreement to any applicable Salesforce pass through terms, product specific terms and/or User and/or use restrictions for the subscriptions purchased under this Service Order; and (3) with respect to the Customer transaction associated with this Service Order, you have acted in accordance with the restrictions imposed on you as a reseller of subscriptions (including but not limited to any restrictions on sales of subscriptions to specific types of Users within the Customer’s organization). This Service Order is governed by the reseller agreement executed by and between Salesforce and the company, organization, or other entity on behalf of which you submit this Service Order.</value>
+    </labels>
+    <labels>
+        <fullName>COA_InitialOrderMissingInOrderHistory_Error_Message</fullName>
+        <categories>COA, ValidationError</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COA_InitialOrderMissingInOrderHistory_Error_Message</shortDescription>
+        <value>We couldn&apos;t find an active contract for this customer. We may have processed a reduction or cancellation order for the customer already, or there may be an issue in our records. For help, log a case in the Partner Community.</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidMessageCustomerAcceptedSFDCServiceAgreementDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Message Customer Accepted SFDC Service Agreement Date</shortDescription>
+        <value>The customer must accept the service agreement on or before today&apos;s date</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidMessagePartnerReceivedCustomerOrderDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Message Partner Received Customer Order Date</shortDescription>
+        <value>You must receive the order from the customer on or before today&apos;s date</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidMessageStartDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Message For Start Date</shortDescription>
+        <value>Service must start on today&apos;s date or a date in the future</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidMessageTomorrowStartDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Message For Start Date</shortDescription>
+        <value>Service must start on a date in the future</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidOperationForStatus</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid operation for status error.</shortDescription>
+        <value>Invalid operation for Service Order with status {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidOrderReceivedDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Order Received Date</shortDescription>
+        <value>You must receive the order from the customer on or before today&apos;s date.</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidOrderType</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid order type specified</shortDescription>
+        <value>Invalid Order Type.</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidReductionLicenceCount</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message displayed when the reduction license count exceeds available licenses</shortDescription>
+        <value>This reduction exceeds the number of active licenses for this product at the selected price.</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidServiceAgreementDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Service Agreement Date</shortDescription>
+        <value>The customer must accept the service agreement on or before today&apos;s date.</value>
+    </labels>
+    <labels>
+        <fullName>COA_InvalidValueError</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message displayed when the reduction, update or renewal license is not valid</shortDescription>
+        <value>This value is not valid.</value>
+    </labels>
+    <labels>
+        <fullName>COA_Invalid_Customer</fullName>
+        <categories>COA, ValidationError</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>COA Invalid Customer</shortDescription>
+        <value>We don&apos;t recognize the org ID or company name, or the company name doesn&apos;t match the org ID. Verify these details and try again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_IsNewCustomerModalText</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text to be displayed in modal for a new customer</shortDescription>
+        <value>This org ID is associated with an existing customer record. Updating the record replaces the customer&apos;s existing details with any new details you&apos;ve provided here.</value>
+    </labels>
+    <labels>
+        <fullName>COA_IsNewCustomerModalTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title of the new customer modal.</shortDescription>
+        <value>Update customer details?</value>
+    </labels>
+    <labels>
+        <fullName>COA_IsSubmittedInAValidTimeFrame_Error_Message</fullName>
+        <categories>COA, ValidationError</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COA_IsSubmittedInAValidTimeFrame_Error_Message</shortDescription>
+        <value>The contract on this order renews in 5 days or less, so you can&apos;t submit a reduction or cancellation. Wait for the next contract period, then try again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_LicensesAvailableTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;licenses available&apos; title</shortDescription>
+        <value>Licenses Available</value>
+    </labels>
+    <labels>
+        <fullName>COA_LicensesNew</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;licenses new&apos; title</shortDescription>
+        <value>LICENSES NEW</value>
+    </labels>
+    <labels>
+        <fullName>COA_LicensesNumber</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;licenses number&apos; title</shortDescription>
+        <value>LICENSES NUMBER</value>
+    </labels>
+    <labels>
+        <fullName>COA_LicensesToAddTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;Increase Licenses By&apos; title</shortDescription>
+        <value>INCREASE LICENSES BY</value>
+    </labels>
+    <labels>
+        <fullName>COA_LicensesToReduceTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;licenses to reduce&apos; title</shortDescription>
+        <value>Reduce By</value>
+    </labels>
+    <labels>
+        <fullName>COA_MainUITextAppSetupPage</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MainUITextAppSetupPage</shortDescription>
+        <value>Get the Channel Order App ready to send orders to Salesforce or a test environment.</value>
+    </labels>
+    <labels>
+        <fullName>COA_MissingChangePasswordParams</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Some required parameters were missing from request to change password.</shortDescription>
+        <value>User name, activation code, login URI, REST endpoint URI, and new password are required to update password.</value>
+    </labels>
+    <labels>
+        <fullName>COA_MissingUpdateConnectionSettingParams</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Some required parameters were missing from request to update connection setting.</shortDescription>
+        <value>Some required parameters missing from request to update connection setting.</value>
+    </labels>
+    <labels>
+        <fullName>COA_NewCustomer</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Customer Label</shortDescription>
+        <value>New customer</value>
+    </labels>
+    <labels>
+        <fullName>COA_NewLicensesTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;New Licenses&apos; title</shortDescription>
+        <value>NEW LICENSES</value>
+    </labels>
+    <labels>
+        <fullName>COA_NewOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label for New Order button</shortDescription>
+        <value>New Order</value>
+    </labels>
+    <labels>
+        <fullName>COA_NoActiveEmailAddress</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>There is no active email address.</shortDescription>
+        <value>We couldn&apos;t find an email service named SFDC Service Order. Verify that you defined an email service with this name, and then try to connect.</value>
+    </labels>
+    <labels>
+        <fullName>COA_NoActiveEmailFunction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>There is no active email function.</shortDescription>
+        <value>Cannot set Address because there is no Active Email Function.</value>
+    </labels>
+    <labels>
+        <fullName>COA_NoApiKeyFoundForRefresh</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refresh button label</shortDescription>
+        <value>No Contract Term Api Key Found.</value>
+    </labels>
+    <labels>
+        <fullName>COA_NoCredentialCreated</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>There is no credential created.</shortDescription>
+        <value>Cannot set Address because there is no credential created.</value>
+    </labels>
+    <labels>
+        <fullName>COA_NoExistingProductsForCustomerAndContract</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message when the customer doesn&apos;t have products for specified contract.</shortDescription>
+        <value>No existing products were found for this customer/contract combination.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderDetailsWizardStepWarning</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning Label</shortDescription>
+        <value>Only Products, Quantity, and Pricing can be changed for Received orders - Order Details cannot be changed.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderType</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Type Label</shortDescription>
+        <value>Order Type</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderTypeWizardAddOn</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add-On Order Type</shortDescription>
+        <value>Add On</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderTypeWizardCancellation</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation Order Type</shortDescription>
+        <value>Cancellation</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderTypeWizardInitial</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Initial Order Type</shortDescription>
+        <value>Initial</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderTypeWizardReduction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reduction Order Type</shortDescription>
+        <value>Reduction</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderTypeWizardRenewal</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal Order Type</shortDescription>
+        <value>Renewal</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderTypeWizardUpgrade</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upgrade Order Type</shortDescription>
+        <value>Upgrade</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderWizardEditSuccess</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Wizard Edit Success</shortDescription>
+        <value>Order {0} was edited.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderWizardRecallSuccess</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recall Success</shortDescription>
+        <value>Order {0} was recalled.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderWizardSaveFailure</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Failed</shortDescription>
+        <value>{0} Resolve the issue, then try saving your draft again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderWizardSaveSuccess</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Success</shortDescription>
+        <value>Order {0} was saved as a draft.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderWizardSubmitFailure</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit Failed</shortDescription>
+        <value>Submit failed.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrderWizardSubmitSuccess</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit Success</shortDescription>
+        <value>Order {0} was submitted.</value>
+    </labels>
+    <labels>
+        <fullName>COA_OrgID</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Org ID Label</shortDescription>
+        <value>Org ID</value>
+    </labels>
+    <labels>
+        <fullName>COA_PickAYear</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>datepicker.cmp pick a year</shortDescription>
+        <value>pick a year</value>
+    </labels>
+    <labels>
+        <fullName>COA_PriceTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;Unit Price&apos; title</shortDescription>
+        <value>UNIT PRICE</value>
+    </labels>
+    <labels>
+        <fullName>COA_PriceUnit</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Price Unit</shortDescription>
+        <value>PRICE UNIT</value>
+    </labels>
+    <labels>
+        <fullName>COA_PricebookName</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;Pricebook&apos; name</shortDescription>
+        <value>Pricebook</value>
+    </labels>
+    <labels>
+        <fullName>COA_PricingTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;pricing&apos; title</shortDescription>
+        <value>PRICING</value>
+    </labels>
+    <labels>
+        <fullName>COA_PricingType</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>productTableItem &apos;pricing type&apos; label</shortDescription>
+        <value>PRICING TYPE</value>
+    </labels>
+    <labels>
+        <fullName>COA_PricingUnit</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>productTableItem &apos;pricing unit&apos; label</shortDescription>
+        <value>PRICING UNIT</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProdButtonUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on button when prod setting is active</shortDescription>
+        <value>Production</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProdCredUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed when prod setting is active</shortDescription>
+        <value>Your production connection is configured. Check with Partner Operations before changing these settings.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProductIdPopupTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Popup &apos;Product Id&apos; title</shortDescription>
+        <value>Product ID:</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProductName</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label Product Name</shortDescription>
+        <value>PRODUCT NAME</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProductPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label Product in the popOver</shortDescription>
+        <value>Product</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProductSpecificTermsAgreeText</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product-Specific Terms Agree Text</shortDescription>
+        <value>specific terms &amp; conditions for this product: {0}</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProductSpecificTermsTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Terms Title</shortDescription>
+        <value>Product-Specific Terms &amp; Conditions</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProductTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;product&apos; title</shortDescription>
+        <value>PRODUCT</value>
+    </labels>
+    <labels>
+        <fullName>COA_ProductionTabUIText</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on Production Tab.</shortDescription>
+        <value>Production Settings</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReduceWhenLicenseQuantityIsOne</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Reduction orders cannot be applied when a quantity of one existing license</shortDescription>
+        <value>This customer has only one license and only one product on this contract. To remove the license and end the contract with the customer, submit a cancellation order instead.</value>
+    </labels>
+    <labels>
+        <fullName>COA_Reduction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reduction Label</shortDescription>
+        <value>Reduction</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReductionInvalidTimeFrame</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reduction invalid time frame.</shortDescription>
+        <value>The contract on this order renews in 5 days or less, so the order will remain active for the next contract period. We&apos;ll apply the reduction to the contract period that follows.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReductionOrderPop</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reduction Order Pop Label</shortDescription>
+        <value>Orders are processed on your contract&apos;s renewal date</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReductionOrderText</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reduction Order Text Label</shortDescription>
+        <value>Reduction Order will be processed on</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReductionPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reduction PopOver Label</shortDescription>
+        <value>Remove products or licenses for an existing customer.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReductionRemovesAllLicenses</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reduction reduces all licenses</shortDescription>
+        <value>We couldn&apos;t process this order because it removes all the available licenses on the customer&apos;s contract. To remove all licenses and end your contract with the customer, submit a cancellation order instead.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReductionRenewalUpgradeLegalTxt</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>General terms and conditions for a reduction, upgrade or renewal order</shortDescription>
+        <value>By submitting below, you are confirming that a corresponding order was received for this customer.  You agree to be bound by the terms and conditions of and be a party to this agreement. You warrant that you are at least eighteen years old and that you have the legal capacity to enter into contracts. If you are entering into this Agreement on behalf of a company, organization, or other entity, then (a) &quot;you&quot; includes you and that entity, and (b) you represent and warrant that you are an authorized representative of the entity with the authority to bind the entity to this Agreement, and that you agree to this Agreement on the entity’s behalf.</value>
+    </labels>
+    <labels>
+        <fullName>COA_RefreshButton</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refresh button label</shortDescription>
+        <value>Refresh Connection</value>
+    </labels>
+    <labels>
+        <fullName>COA_RefreshNotNeeded</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The refresh connection was already processed.</shortDescription>
+        <value>Refresh connection was already processed.</value>
+    </labels>
+    <labels>
+        <fullName>COA_RefreshWarning</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refresh is needed warning</shortDescription>
+        <value>An update to the Channel Order App was recently installed. Please refresh your connection.</value>
+    </labels>
+    <labels>
+        <fullName>COA_RelatedOpportunity</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Opportunity Label</shortDescription>
+        <value>Related Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>COA_RemoveProductModalTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title of the remove product modal.</shortDescription>
+        <value>Remove Product</value>
+    </labels>
+    <labels>
+        <fullName>COA_RemoveProductText</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text to be displayed in modal when a product will be removed</shortDescription>
+        <value>Are you sure you want to remove this product from the order?</value>
+    </labels>
+    <labels>
+        <fullName>COA_Renewal</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal Label</shortDescription>
+        <value>Renewal</value>
+    </labels>
+    <labels>
+        <fullName>COA_RenewalOrderText</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal Order Text Label</shortDescription>
+        <value>Renewal Order will be processed on</value>
+    </labels>
+    <labels>
+        <fullName>COA_RenewalPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal PopOver Label</shortDescription>
+        <value>Renew services with an existing customer before a contract expires, or report changes in pricing. Any changes are applied on the renewal date of the contract.</value>
+    </labels>
+    <labels>
+        <fullName>COA_RenewalTerms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal Terms Label</shortDescription>
+        <value>Renewal Terms (months)</value>
+    </labels>
+    <labels>
+        <fullName>COA_Required</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required label</shortDescription>
+        <value>required</value>
+    </labels>
+    <labels>
+        <fullName>COA_RequiredFieldsMissing</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required fields missing for service orders</shortDescription>
+        <value>Required fields are missing: {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_RequiredMessage</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Message Label</shortDescription>
+        <value>This field is required</value>
+    </labels>
+    <labels>
+        <fullName>COA_RequiredMessageCustomerAcceptedSFDCServiceAgreementDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Message Customer Accepted SFDC Service Agreement Date</shortDescription>
+        <value>The customer must accept the service agreement on or before today&apos;s date</value>
+    </labels>
+    <labels>
+        <fullName>COA_RequiredMessagePartnerReceivedCustomerOrderDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Message Partner Received Customer Order Date</shortDescription>
+        <value>You must receive the order from the customer on or before today&apos;s date</value>
+    </labels>
+    <labels>
+        <fullName>COA_RequiredShortMessage</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required</shortDescription>
+        <value>Required</value>
+    </labels>
+    <labels>
+        <fullName>COA_RequiredURLMessage</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required URL Message Label</shortDescription>
+        <value>Provide a valid URL</value>
+    </labels>
+    <labels>
+        <fullName>COA_RequiredUserNameMessage</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Username Message Label</shortDescription>
+        <value>Provide a valid username</value>
+    </labels>
+    <labels>
+        <fullName>COA_RevenueSharePop</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Revenue Share popover message</shortDescription>
+        <value>The amount due to Salesforce per unit per month for this license based on the transaction price reported in previous orders for this customer. This amount appears on invoices that you receive from Salesforce.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ReviewTheseMessages</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Review these messages:</shortDescription>
+        <value>Review these messages:</value>
+    </labels>
+    <labels>
+        <fullName>COA_SFDCInvoiceDescription</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SFDC Invoice Description Label</shortDescription>
+        <value>SFDC Invoice Description</value>
+    </labels>
+    <labels>
+        <fullName>COA_SFDCPricePopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for SFDC Price popOver</shortDescription>
+        <value>SFDC price per month.</value>
+    </labels>
+    <labels>
+        <fullName>COA_SFDCPriceTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;Revenue Share&apos; title</shortDescription>
+        <value>Revenue Share</value>
+    </labels>
+    <labels>
+        <fullName>COA_SandboxOrgCannotConnectToProduction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error displayed when sandbox org tries to connect to prod.</shortDescription>
+        <value>You can&apos;t set up a production connection to Salesforce from a sandbox org. Choose another org, then try again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_SandboxOrgCannotSubmitToProduction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error displayed when sandbox org tries to submit orders to prod.</shortDescription>
+        <value>You can&apos;t submit orders to production from a sandbox org.</value>
+    </labels>
+    <labels>
+        <fullName>COA_SearchCustomers</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Customers</shortDescription>
+        <value>Search customers...</value>
+    </labels>
+    <labels>
+        <fullName>COA_SearchOpportunity</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Opportunities</shortDescription>
+        <value>Search opportunities...</value>
+    </labels>
+    <labels>
+        <fullName>COA_SearchOrgIds</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Org IDs</shortDescription>
+        <value>Search org IDs...</value>
+    </labels>
+    <labels>
+        <fullName>COA_SearchProducts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Products</shortDescription>
+        <value>Search products...</value>
+    </labels>
+    <labels>
+        <fullName>COA_SendOrderSalesforceUIText</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on button to send order to prod.</shortDescription>
+        <value>Send orders to Salesforce</value>
+    </labels>
+    <labels>
+        <fullName>COA_SendOrderTestUIText</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on button to send order to test.</shortDescription>
+        <value>Send orders to a test environment</value>
+    </labels>
+    <labels>
+        <fullName>COA_SendOrderUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on header for active modal.</shortDescription>
+        <value>Choose where you&apos;d like to send orders.</value>
+    </labels>
+    <labels>
+        <fullName>COA_SendToUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send Order UI Text AppSetup</shortDescription>
+        <value>Send Orders To:</value>
+    </labels>
+    <labels>
+        <fullName>COA_ServiceAndOrderDates</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service and Order Dates Label</shortDescription>
+        <value>Service and Order Dates</value>
+    </labels>
+    <labels>
+        <fullName>COA_ServiceOrderIdMissing</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service order id is missing for service orders</shortDescription>
+        <value>Provide an ID for this service order.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ServiceOrderInvalidAction</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Order Invalid Action</shortDescription>
+        <value>The action you selected isn&apos;t valid for this order status.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ServiceStartDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Start Date Label</shortDescription>
+        <value>Service Start Date</value>
+    </labels>
+    <labels>
+        <fullName>COA_SetupAlertMessage</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Alert Message on COA Setup</shortDescription>
+        <value>If you update your production settings, the current connection stops and you may experience a delay in order processing if the new credentials aren&apos;t configured correctly. To continue, confirm that you received instructions from Partner Operations to update these settings.</value>
+    </labels>
+    <labels>
+        <fullName>COA_SetupNotComplete</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup must be complete before using COA</shortDescription>
+        <value>The Channel Order App can&apos;t submit orders to Salesforce because its production connection isn&apos;t set up. For details about connecting the COA to Salesforce, see the ISVforce Guide.</value>
+    </labels>
+    <labels>
+        <fullName>COA_StandardTerms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard Terms Label</shortDescription>
+        <value>Standard terms</value>
+    </labels>
+    <labels>
+        <fullName>COA_State</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>State Label</shortDescription>
+        <value>State</value>
+    </labels>
+    <labels>
+        <fullName>COA_Street</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Street Label</shortDescription>
+        <value>Street</value>
+    </labels>
+    <labels>
+        <fullName>COA_Terms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for terms text</shortDescription>
+        <value>Terms:</value>
+    </labels>
+    <labels>
+        <fullName>COA_TermsLegalAgreeTxt</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>terms and conditions agree legal text</shortDescription>
+        <value>I agree to the {0}</value>
+    </labels>
+    <labels>
+        <fullName>COA_TermsLegalTxtLargerView</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LargerView link</shortDescription>
+        <value>View Larger</value>
+    </labels>
+    <labels>
+        <fullName>COA_TermsTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Terms Title Label</shortDescription>
+        <value>Order Terms &amp; Conditions</value>
+    </labels>
+    <labels>
+        <fullName>COA_TermsValues</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for terms values</shortDescription>
+        <value>Contract Length: {0} months | Renewal Terms: {1} months | Cancellation Terms: {2} days | Billing Frequency: {3} | Auto Renew: {4}</value>
+    </labels>
+    <labels>
+        <fullName>COA_TestButtonUITextAppSetup</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on button when test setting is active</shortDescription>
+        <value>Test</value>
+    </labels>
+    <labels>
+        <fullName>COA_TestConnectionSetAgainstProdError</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error displayed when test connection is set against org62.</shortDescription>
+        <value>This endpoint is associated with a production environment. Choose another endpoint for your test environment, then try again.</value>
+    </labels>
+    <labels>
+        <fullName>COA_TestTabUIText</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text Displayed on Test Tab.</shortDescription>
+        <value>Test Settings</value>
+    </labels>
+    <labels>
+        <fullName>COA_Today</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>datepicker.cmp Today</shortDescription>
+        <value>Today</value>
+    </labels>
+    <labels>
+        <fullName>COA_TotalPricePopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for Total Price popOver</shortDescription>
+        <value>Total price per month.</value>
+    </labels>
+    <labels>
+        <fullName>COA_TotalPriceTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;Total Price&apos; title</shortDescription>
+        <value>TOTAL PRICE</value>
+    </labels>
+    <labels>
+        <fullName>COA_UnitTableTitle</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsTable &apos;unit&apos; title</shortDescription>
+        <value>UNIT</value>
+    </labels>
+    <labels>
+        <fullName>COA_Upgrade</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upgrade Label</shortDescription>
+        <value>Upgrade</value>
+    </labels>
+    <labels>
+        <fullName>COA_UpgradePopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upgrade PopOver Label</shortDescription>
+        <value>Upgrade an existing customer to a different product, or adjust the pricing of the products on a contract. Any changes must result in a net increase in value.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateContractLength</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ValidateContractLength error message</shortDescription>
+        <value>Contract Length will follow the terms of the existing customer contract, it cannot be changed.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateCorrespondingOrderRequired</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ValidateCorrespondingOrderRequired error message</shortDescription>
+        <value>Service orders to salesforce.com require that your organization has received a corresponding customer order.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateCountry</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Country</shortDescription>
+        <value>Invalid Country - Country cannot contain special characters or numbers, Country is a two letter code.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateOrgId</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validate org id error message</shortDescription>
+        <value>Invalid Org ID.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateOrgIdKeyPrefix</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validate org id key prefix error message</shortDescription>
+        <value>Org IDs should begin with &quot;00D&quot; and be 15 characters in length.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateStartDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ValidateStartDate error message</shortDescription>
+        <value>Service Start Date cannot be entered for past dates.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateState</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid state for country.</shortDescription>
+        <value>Invalid State - State is not valid for Country {0}.</value>
+    </labels>
+    <labels>
+        <fullName>COA_ValidateZipCode</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validate zip code error message</shortDescription>
+        <value>ZIP/Postal Code for US must be either 5 digits (99999) or ZIP+4 format (99999-9999).</value>
+    </labels>
+    <labels>
+        <fullName>COA_ViewAll</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label for View All button</shortDescription>
+        <value>View All</value>
+    </labels>
+    <labels>
+        <fullName>COA_ViewMore</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>label for View More button</shortDescription>
+        <value>View More</value>
+    </labels>
+    <labels>
+        <fullName>COA_WarningMultipleContracts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning when there are multiple contracts</shortDescription>
+        <value>This customer has multiple active contracts, so we couldn&apos;t determine a service start / cancellation date for the order. After you submit the order, Salesforce Partner Operations will review it and determine the exact date.</value>
+    </labels>
+    <labels>
+        <fullName>COA_WarningOnStartDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning for service start date no Renewal Date</shortDescription>
+        <value>This customer has multiple active contracts, so we couldn&apos;t determine a {0} date for the order. After you submit the order, Salesforce Partner Operations will review it and determine the exact date.</value>
+    </labels>
+    <labels>
+        <fullName>COA_WizardEditHeader</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COA Order Wizard Edit Header</shortDescription>
+        <value>Edit {0} Order</value>
+    </labels>
+    <labels>
+        <fullName>COA_WizardNewHeader</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COA Order Wizard New Header</shortDescription>
+        <value>New {0} Order</value>
+    </labels>
+    <labels>
+        <fullName>COA_ZipPostal</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Zip/Postal Label</shortDescription>
+        <value>Zip/Postal</value>
+    </labels>
+    <labels>
+        <fullName>COA_contractIDPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label Contract Id in the popOver</shortDescription>
+        <value>Contract ID:</value>
+    </labels>
+    <labels>
+        <fullName>COA_deactivateUserError</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot deactivate a user that is being used in email service.</shortDescription>
+        <value>Cannot deactivate a user that is being used as a Context User in an Email Service.</value>
+    </labels>
+    <labels>
+        <fullName>COA_description_Text_ItemTable</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description Text for the item table component</shortDescription>
+        <value>Description :</value>
+    </labels>
+    <labels>
+        <fullName>COA_dropDown_AddDescription</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add Item Description Label for the DropDown Button</shortDescription>
+        <value>Add Item Description</value>
+    </labels>
+    <labels>
+        <fullName>COA_dropDown_EditDescription</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Description Label for the DropDown Button</shortDescription>
+        <value>Edit Description</value>
+    </labels>
+    <labels>
+        <fullName>COA_dropDown_EditTerms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Terms Label for the DropDown Button</shortDescription>
+        <value>Edit Terms</value>
+    </labels>
+    <labels>
+        <fullName>COA_dropDown_RemoveFromOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove From Order Label for the DropDown Button</shortDescription>
+        <value>Remove Line Item</value>
+    </labels>
+    <labels>
+        <fullName>COA_dropDown_SplitLineItem</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Split Line Item Label for the DropDown Button</shortDescription>
+        <value>Split Line Item</value>
+    </labels>
+    <labels>
+        <fullName>COA_dropDown_ViewProductDescription</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View Product Label for the DropDown Button</shortDescription>
+        <value>View Product</value>
+    </labels>
+    <labels>
+        <fullName>COA_editTerms</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for edit terms text</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>COA_edit_Description</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Description Text</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>COA_months</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for months</shortDescription>
+        <value>{0} months</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverEndPointCredentials</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver EndPoint Credentials</shortDescription>
+        <value>Test environment endpoints are provided to eligible partners upon request. If you require a test environment, log a support case in the Partner Community.</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleCurrentAOV</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Current AOV</shortDescription>
+        <value>CURRENT AOV</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleCurrentAOVPrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Current AOV Price</shortDescription>
+        <value>AOV %</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleCurrentTotal</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Current Total</shortDescription>
+        <value>CURRENT TOTAL</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleLicensePrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title License Price</shortDescription>
+        <value>LICENSE PRICE</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleLicenses</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Licenses</shortDescription>
+        <value>LICENSES</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleLicensesToAdd</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Increase licenses by</shortDescription>
+        <value>INCREASE LICENSES BY</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Order</shortDescription>
+        <value>ORDER</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleOrderDate</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Order Date</shortDescription>
+        <value>ORDER DATE</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleSFDCPercentage</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title SFDC Percentage</shortDescription>
+        <value>SFDC %</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverTitleTerm</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Title Term</shortDescription>
+        <value>TERM</value>
+    </labels>
+    <labels>
+        <fullName>COA_popOverUserNameCredentials</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for the popOver Username Credentials</shortDescription>
+        <value>Provide the username and password you received from Partner Operations. Don&apos;t use your Salesforce org login credentials.</value>
+    </labels>
+    <labels>
+        <fullName>COA_productIDPopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label Product Id in the popOver</shortDescription>
+        <value>Product ID:</value>
+    </labels>
+    <labels>
+        <fullName>COA_productNamePopOver</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label Product Name in the popOver</shortDescription>
+        <value>Product Name:</value>
+    </labels>
+    <labels>
+        <fullName>COA_selectProductsWizardStepSelectionRequired</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>At least one product should be selected</shortDescription>
+        <value>Select at least one product.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardCannotReduceMoreLicensesThanAvailable</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot reduce more licenses than available.</shortDescription>
+        <value>Cannot reduce more licenses for a pricebook than the ones available for reduction.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardInvalidPrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message shown when customer enters an invalid price.</shortDescription>
+        <value>Provide a valid price.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardInvalidQuantity</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message shown when customer enters an invalid license quantity.</shortDescription>
+        <value>Provide a valid license quantity.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardShouldSubmitAsCancellation</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Should submit order as cancellation.</shortDescription>
+        <value>At least one product on a reduction order must have licenses. If you want to remove all licenses for this customer, submit a cancellation order instead.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardWithoutProducts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>At least one product should be selected</shortDescription>
+        <value>This type of order needs at least one product.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardWithoutReducedProducts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message shown when customer does not reduce licenses</shortDescription>
+        <value>You must at least reduce one license for the reduction to be valid.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardWithoutRenewalProducts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message shown when customer does not reduce licenses</shortDescription>
+        <value>You must at least renew one license for the renewal to be valid.</value>
+    </labels>
+    <labels>
+        <fullName>COA_thirdStepWizardWithoutUpgradeProducts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message shown when customer does not reduce licenses</shortDescription>
+        <value>You must at least upgrade one license for the upgrade to be valid.</value>
+    </labels>
+    <labels>
+        <fullName>COA_unitPrice_multiple</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for when there are several unit price</shortDescription>
+        <value>multiple</value>
+    </labels>
+    <labels>
+        <fullName>COA_unitPrice_na</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for when the unit price is Fixed</shortDescription>
+        <value>n/a</value>
+    </labels>
+    <labels>
+        <fullName>COA_unitType</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for unit type</shortDescription>
+        <value>UNIT TYPE</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_CurrentLicenses</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Current Quantity in the third step</shortDescription>
+        <value>CURRENT QUANTITY</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_CurrentTotalPrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Current Total Price in the third step</shortDescription>
+        <value>CURRENT TOTAL PRICE</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_LicensesToAdd</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Licenses to Add in the third step</shortDescription>
+        <value>LICENSES TO ADD</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_LicensesToRenew</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Licenses to Renew in the third step</shortDescription>
+        <value>LICENSES TO RENEW</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_LicensesToUpgrade</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Licenses to Upgrade in the third step</shortDescription>
+        <value>LICENSES TO UPGRADE</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_NewLicenses</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column New Quantity in the third step</shortDescription>
+        <value>NEW QUANTITY</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_NewTotal</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column New Total in the third step</shortDescription>
+        <value>NEW TOTAL</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_NewTotalPrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column New Total Price in the third step</shortDescription>
+        <value>NEW TOTAL PRICE</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_PriceUnit</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Unit Price in the third step</shortDescription>
+        <value>UNIT PRICE</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_ReducedBy</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Reduced By in the third step</shortDescription>
+        <value>REDUCED BY</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_SFDCPrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Revenue Share in the third step</shortDescription>
+        <value>Revenue Share</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_TotalPrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Total Price in the third step</shortDescription>
+        <value>TOTAL PRICE</value>
+    </labels>
+    <labels>
+        <fullName>COA_wizardThirdStep_UnitPrice</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for column Unit Price in the third step</shortDescription>
+        <value>UNIT PRICE</value>
+    </labels>
+    <labels>
+        <fullName>CancellationOrderDetailsError</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CancellationOrderDetailsError</shortDescription>
+        <value>Invalid Service Order - Cancellation Service Orders can not have Service Order Details.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Edit_Order_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot edit order</shortDescription>
+        <value>This order was processed. You can&apos;t edit orders more than 2 hours after submission.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_submit_multiple_orders_of_same_type_validation_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot submit multiple order of the same type</shortDescription>
+        <value>You can&apos;t submit multiple orders of the same type for a customer. Remove the duplicate orders from the batch and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Clone_Order</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clone Order</shortDescription>
+        <value>Clone Order</value>
+    </labels>
+    <labels>
+        <fullName>Clone_This_Product</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Creates a new product based on an existing one</shortDescription>
+        <value>Clone This Product</value>
+    </labels>
+    <labels>
+        <fullName>Close</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Custom_Action</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm_Custom_Action</shortDescription>
+        <value>Please click on the button below to confirm this action.</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Switch_help</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract_Switch_help</shortDescription>
+        <value>Please check this box if you are submitting a renewal or upgrade order to migrate your customer from one program to another</value>
+    </labels>
+    <labels>
+        <fullName>Could_not_find_Initial_Activated_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not find an Active Initial Order</shortDescription>
+        <value>This customer doesn&apos;t have any previous orders, or the initial customer order hasn&apos;t been processed. If the customer doesn&apos;t have any orders, submit an initial order by selecting New Customer in the order submission wizard. If you already submitted an order, wait until the order status changes to Activated or Provisioned. Then try again.</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Action_Clone</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Action Clone</shortDescription>
+        <value>Clone</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Action_Recall</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Action Recall</shortDescription>
+        <value>Recall</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Action_Submit</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Action Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>CustomerPriceMonthUI</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CustomerPriceMonthUI</shortDescription>
+        <value>Total Customer Price/Month</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Information_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Information Required</shortDescription>
+        <value>This order is missing required customer details. Verify the company name and billing address for the customer and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Delete</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Order</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Order</shortDescription>
+        <value>Delete Order</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Order_Confirmation_text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Order confirmation text.</shortDescription>
+        <value>You’re about to delete a draft order. Once you delete the order, you won’t be able to recover it.</value>
+    </labels>
+    <labels>
+        <fullName>Derived_price_product_validation_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Derived price product Validation Response</shortDescription>
+        <value>The Product is a Sandbox product, it will manually processed.</value>
+    </labels>
+    <labels>
+        <fullName>Done</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Done</shortDescription>
+        <value>Done</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_AcceptedSFDCAgmt</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_AcceptedSFDCAgmt</shortDescription>
+        <value>Date Customer Accepted Salesforce Service Agreement is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_CancellationTermsInvalid</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_CancellationTermsInvalid</shortDescription>
+        <value>Invalid Cancellation Terms - Cancellation Terms is a numeric field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_CancellationTermsRequired</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_CancellationTermsRequired</shortDescription>
+        <value>Cancellation Terms is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_City</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_City</shortDescription>
+        <value>City is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_CompanyName</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_CompanyName</shortDescription>
+        <value>Company Name is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_CompanyNameLength</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Company Name is too long</shortDescription>
+        <value>Company Name is too long (more than 50 characters)</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_Contract</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_Contract</shortDescription>
+        <value>Contract is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_ContractLengthInvalid</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_ContractLengthInvalid</shortDescription>
+        <value>Invalid Contract Length - Contract Length is a numeric field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_ContractLengthRequired</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_ContractLengthRequired</shortDescription>
+        <value>Contract Length is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_Country</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_Country</shortDescription>
+        <value>Country is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_CountryLength</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Country is too long</shortDescription>
+        <value>Country is too long (more than 50 characters)</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_CustPriceInvalid</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_CustPriceInvalid</shortDescription>
+        <value>Invalid Customer Price - Customer Price is a numeric field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_CustPriceRequired</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_CustPriceRequired</shortDescription>
+        <value>Customer Price is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_DatePartnerReceiveOrder</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_DatePartnerReceiveOrder</shortDescription>
+        <value>Date Partner Received Customer Order is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_DuplicatedOrgId</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_DuplicatedOrgId</shortDescription>
+        <value>There is a different customer with same Org Id. Please enter a unique Org Id in the customer information section.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_Invalid_Number</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg Invalid Number</shortDescription>
+        <value>Invalid number</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_NoCatalogForTheSelectedContractTerm</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Catalog for the selected Contract Term</shortDescription>
+        <value>There are no associated Partner Product Catalogs for the selected Partner Channel Contract Term, please contact salesforce.com if you feel you have received this message in error.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_NoCustomerResults</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_NoCustomerResults</shortDescription>
+        <value>No results found to auto-populate. Note that Customer information is only stored once an order is submitted for the first time.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_NoCustomerResultsByOrgId</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_NoCustomerResultsByOrgId</shortDescription>
+        <value>No results found to auto-populate. Note that Customer information is only stored once an order is submitted for the first time.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_OrderType</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_OrderType</shortDescription>
+        <value>Order Type is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_OrgId</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invalid Org Id</shortDescription>
+        <value>Provide a valid customer org ID.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_RenewalDateNotFound</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>An Error Occurred while retrieving renewal date</shortDescription>
+        <value>We couldn&apos;t find a renewal date for this contract. Log a case in the Partner Community. Provide this error message and the name of the contract you specified.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_RenewalTermsInvalid</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_RenewalTermsInvalid</shortDescription>
+        <value>Invalid Renewal Terms - Renewal Terms is a numeric field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_RenewalTermsRequired</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_RenewalTermsRequired</shortDescription>
+        <value>Renewal Terms is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_StartDate</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_StartDate</shortDescription>
+        <value>Service Start Date is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_State</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_State</shortDescription>
+        <value>State/Province/Region is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_Street</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_Street</shortDescription>
+        <value>Street is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_StreetLength</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Street is too long</shortDescription>
+        <value>Street is too long (more than 100 characters)</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_TotalQuantity</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_TotalQuantity</shortDescription>
+        <value>Total Quantity is required for at least one product when submitting an order. Quantity must be a positive value unless submitting a reduction order. Please verify product quantities.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_Zip</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_Zip</shortDescription>
+        <value>ZIP/Postal Code is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_Zip_CA</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_Zip_CA</shortDescription>
+        <value>&quot;ZIP/Postal Code for Canada must be in A1A 1A1 format.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMsg_Zip_USA</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ErrorMsg_Zip_USA</shortDescription>
+        <value>ZIP/Postal Code for US must be either 5 digits (99999) or ZIP+4 format (99999-9999).</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_AddOn</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for select order type</shortDescription>
+        <value>&lt;b&gt;Add-On — &lt;/b&gt;Add licenses or products for an existing customer.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_Cancellation</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for select order type</shortDescription>
+        <value>&lt;b&gt;Cancellation — &lt;/b&gt; Terminate a contract with an existing customer. Cancellations terminate the contractual relationship with the customer, which includes all products on the contract. If you are canceling individual products for a customer, submit a reduction order instead.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_Initial</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for select order type</shortDescription>
+        <value>&lt;b&gt;Initial —&lt;/b&gt; Create an order for a new customer who hasn’t purchased something from you before. You must include an admin user subscription for each reseller customer org in your order. Order one admin user subscription per 50 user subscriptions.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_NetRevenue</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for % Net Revenue</shortDescription>
+        <value>If PNR falls below the floor price, the floor price will be generated.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_OrderType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>{HelpText_OrderType}</shortDescription>
+        <value>&lt;b&gt;Initial —&lt;/b&gt; Create an order for a new customer who hasn’t purchased something from you before.&lt;/br&gt;
+&lt;b&gt;Add-On — &lt;/b&gt;Add licenses or products for an existing customer.&lt;/br&gt;
+&lt;b&gt;Reduction— &lt;/b&gt;Remove licenses or products for an existing customer.&lt;/br&gt;
+&lt;b&gt;Cancellation — &lt;/b&gt;Terminate a contract with with an existing customer.&lt;/br&gt;
+&lt;b&gt;Renewal — &lt;/b&gt;Upgrade an existing customer to a different version of your app.&lt;/br&gt;
+&lt;b&gt;Upgrade - Org Edition — &lt;/b&gt;Upgrade an existing customer to a different edition of Salesforce.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_OrgID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for Org ID field in Service Order creation page</shortDescription>
+        <value>Uniquely identifies a Salesforce org. Org IDs contain 15 characters and are case sensitive.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_Reduction</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for select order type</shortDescription>
+        <value>&lt;b&gt;Reduction— &lt;/b&gt; Remove licenses or products for an existing customer. The quantity and product against this order should reflect what you want reduced from the existing contract. If you wish to terminate or cancel all service to said customer, please select the cancelation order type.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_RefreshProductDetails</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for Refresh Product Details button</shortDescription>
+        <value>Refresh to see items you’ve added to your product catalog, or updated product details for items that you’ve recently changed.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_Renewal</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for select order type</shortDescription>
+        <value>&lt;b&gt;Renewal — &lt;/b&gt; Renew service and contract terms with an existing customer when you approach the anniversary date of a contract.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_SFDCInvoiceDescription</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for SFDC Invoice Description</shortDescription>
+        <value>Add text that you want to appear on the invoice. For example, the name of the customer.</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_ServiceStartDate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for Service Start Date</shortDescription>
+        <value>Effective date of the request</value>
+    </labels>
+    <labels>
+        <fullName>HelpText_Upgrade</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Help text for select order type</shortDescription>
+        <value>&lt;b&gt;Upgrade — &lt;/b&gt; Upgrade an existing customer to a different edition of Salesforce or adjust pricing for existing users on a contract. If you want to adjust pricing, select a product and then enter the corresponding number of users and a new price.</value>
+    </labels>
+    <labels>
+        <fullName>ISV_Contract</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ISV_Contract</shortDescription>
+        <value>ISV contract</value>
+    </labels>
+    <labels>
+        <fullName>Internal_error_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Internal Error Response</shortDescription>
+        <value>An error occurred. Try again, or log a case in the Partner Community. When you log the case, describe what you were doing when the error occurred.</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Field_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Field</shortDescription>
+        <value>{0} is Invalid</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_order_type_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Order Type</shortDescription>
+        <value>The order type isn&apos;t valid.  Provide a valid order type.</value>
+    </labels>
+    <labels>
+        <fullName>Is_Contract_Switch</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is Contract Switch</shortDescription>
+        <value>Program Change</value>
+    </labels>
+    <labels>
+        <fullName>LicensePriceBookIdNotExistErrorMessage</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Specified Price Book Id doesn&apos;t has active licenses</shortDescription>
+        <value>We couldn&apos;t process the reduction because the customer doesn&apos;t have an active contract for the products on the order. Verify the customer and products you specified, and then try again.</value>
+    </labels>
+    <labels>
+        <fullName>LicensePriceNotExistErrorMessage</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Specified Unit price to reduce doesn&apos;t has active licenses</shortDescription>
+        <value>We couldn&apos;t process the reduction because the customer doesn&apos;t have an active contract for the price on the order. Verify the customer and products you specified, and then try again.</value>
+    </labels>
+    <labels>
+        <fullName>LicenseQuantityNotReduciblePerPriceErrorMessage</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Quantity for specified unit price exceeded</shortDescription>
+        <value>We couldn&apos;t process the reduction because the specified licenses exceed the current customer available licenses. Verify the customer and products you specified, and then try again.</value>
+    </labels>
+    <labels>
+        <fullName>Licenses_Negative_validation_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Licenses cannot be negative Validation Response</shortDescription>
+        <value>The reduction you specified exceeds the number of licenses available for one or more products on this order. Review license quantities and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Maximum_Length_exceeded_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Maximum length exceeded</shortDescription>
+        <value>Maximum Length exceeded for {0}.</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_Active_Contract_Log_Case</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Multiple Active Contract, Log Case</shortDescription>
+        <value>You have more than 1 active contracts found on this customer&apos;s account. Please log a partner case with the customer&apos;s org id for further review.</value>
+    </labels>
+    <labels>
+        <fullName>No_Active_account_found_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Active Account Found</shortDescription>
+        <value>We couldn&apos;t find the customer org ID you specified. Verify the ID and try again.</value>
+    </labels>
+    <labels>
+        <fullName>No_reset_processing_time_required_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No reset processing time required</shortDescription>
+        <value>Order process time did not need to be reset as it was already more than the minimum.</value>
+    </labels>
+    <labels>
+        <fullName>None_selected</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>None selected</shortDescription>
+        <value>None selected</value>
+    </labels>
+    <labels>
+        <fullName>Not_allowed_to_sell_to_existing_org_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not allowed to sell to existing org</shortDescription>
+        <value>The customer org you specified is active. Your agreement with Salesforce doesn&apos;t allow you to sell to customers with active orgs.</value>
+    </labels>
+    <labels>
+        <fullName>OEM_Contract</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OEM Contract</shortDescription>
+        <value>OEM contract</value>
+    </labels>
+    <labels>
+        <fullName>Only_One_Active_Contract_validation_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Only one active contract validation</shortDescription>
+        <value>The customer on this order is associated with multiple active contracts. Log a case in the Partner Community for help. When you log the case, provide the customer name and ask for it to be associated with a single contract.</value>
+    </labels>
+    <labels>
+        <fullName>OrderType_Renewal</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>order type renawal</shortDescription>
+        <value>Renewal</value>
+    </labels>
+    <labels>
+        <fullName>OrderType_UpgradeOrg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>order type renawal</shortDescription>
+        <value>Upgrade</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_Back</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_Cancel</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_Clone</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_Clone</shortDescription>
+        <value>Clone</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_Confirm</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_Confirm</shortDescription>
+        <value>Confirm &amp; Submit</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_Modify</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_Modify</shortDescription>
+        <value>Modify</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_Save</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_Submit</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_Submit</shortDescription>
+        <value>Save &amp; Next</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_SubmitNewOrder</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_SubmitNewOrder</shortDescription>
+        <value>Submit New Order</value>
+    </labels>
+    <labels>
+        <fullName>OrderUIBtn_SyncCatalog</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUIBtn_SyncCatalog</shortDescription>
+        <value>Refresh Product Details</value>
+    </labels>
+    <labels>
+        <fullName>OrderUITitle_MyOrders</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUITitle_MyOrders</shortDescription>
+        <value>My Orders</value>
+    </labels>
+    <labels>
+        <fullName>OrderUITitle_SFCOA</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUITitle_SFCOA</shortDescription>
+        <value>Salesforce.com Channel Order App</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_Action</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_CancelLegalTxt</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_CancelLegalTxt</shortDescription>
+        <value>By submitting below, you are confirming that a corresponding order was received for this customer.  You agree to be bound by the terms and conditions of and be a party to this agreement. You warrant that you are at least eighteen years old and that you have the legal capacity to enter into contracts. If you are entering into this Agreement on behalf of a company, organization, or other entity, then (a) &quot;you&quot; includes you and that entity, and (b) you represent and warrant that you are an authorized representative of the entity with the authority to bind the entity to this Agreement, and that you agree to this Agreement on the entity’s behalf.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_CancelMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_CancelMsg</shortDescription>
+        <value>This order will terminate the contract with</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_Contract</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_Contract</shortDescription>
+        <value>2. Select a Contract</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_ContractTitle</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_ContractTitle</shortDescription>
+        <value>Contract</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_Customer</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_Customer</shortDescription>
+        <value>1. Enter Customer Information</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_CustomerMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_CustomerMsg</shortDescription>
+        <value>To begin your order, enter the customer information below. Customer data is stored once an order is submitted for the first time. To auto-populate the fields, search on the Company Name or Org ID.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_CustomerName</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_CustomerName</shortDescription>
+        <value>Customer Name</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_Edit</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_EditOrder</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI EditOrder</shortDescription>
+        <value>Edit Order</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_HeaderSubtitle</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_HeaderSubtitle</shortDescription>
+        <value>The Channel Order App allows partners to create, manage and submit orders directly to the Salesforce.com Partner Operations team. Orders should be submitted based on the sales and licensing of applications to customers, as required by your partner agreement.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_InitialAddOLegalTxt</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_InitialAddOLegalTxt</shortDescription>
+        <value>By submitting below, you are confirming that a corresponding order was received for this customer.  You agree to be bound by the terms and conditions of and be a party to this agreement. You warrant that you are at least eighteen years old and that you have the legal capacity to enter into contracts. If you are entering into this Agreement on behalf of a company, organization, or other entity, then (a) &quot;you&quot; includes you and that entity, and (b) you represent and warrant that you are an authorized representative of the entity with the authority to bind the entity to this Agreement, and that you agree to this Agreement on the entity’s behalf.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_InitialAddOLegalTxt_Part01</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_InitialAddOLegalTxt_Part01</shortDescription>
+        <value>By submitting this Service Order, you warrant that you are at least 18 years old and that you have the legal capacity and authorization to bind the company, organization, or other entity that has authorized you to submit this Service Order on its behalf (and for avoidance of doubt, “you” shall be deemed to include such entity for purposes of this paragraph).  Furthermore, by submitting a Service Order, you confirm, represent and warrant that: (1) you have received a binding order from your customer associated with this Service Order that corresponds to the customer name and required order information that you have reported for this Service Order;</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_InitialAddOLegalTxt_Part_02</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_InitialAddOLegalTxt_Part_02</shortDescription>
+        <value>(2) as part of your acceptance of the Customer’s order associated with this Service Order you have documented the Customer’s agreement to any applicable Salesforce pass through terms, product specific terms and/or User and/or use restrictions for the subscriptions purchased under this Service Order; and (3) with respect to the Customer transaction associated with this Service Order, you have acted in accordance with the restrictions imposed on you as a reseller of subscriptions (including but not limited to any restrictions on sales of subscriptions to specific types of Users within the Customer’s organization). This Service Order is governed by the reseller agreement executed by and between Salesforce and the company, organization, or other entity on behalf of which you submit this Service Order.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_InitialAddOnMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_InitialAddOnMsg</shortDescription>
+        <value>This order will add the following products to</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OldCOAOrderErrorMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OldCOAOrderErrorMsg</shortDescription>
+        <value>This order was created with an older version of the Channel Order App and will need to be re-created in order to submit for provisioning.  Clone the order to pull in relevant details for the new order.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_Order</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_Order</shortDescription>
+        <value>3. Enter Order Details</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrderCancelMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrderCancelMsg</shortDescription>
+        <value>Cancellation orders should be used to terminate the contractual relationship with the customer, which includes all products on this contract. If you are cancelling individual products purchased by this customer, submit a reduction order.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrderConfirmation</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrderConfirmation</shortDescription>
+        <value>Order Confirmation</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrderMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrderMsg</shortDescription>
+        <value>To place an order, select the contract for the products that were sold.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrderNum</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrderNum</shortDescription>
+        <value>Order Number</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrderServiceDates</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrderServiceDates</shortDescription>
+        <value>4. Enter Service and Order Dates</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrderStartDate</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrderStartDate</shortDescription>
+        <value>Order Start Date</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrderStatus</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrderStatus</shortDescription>
+        <value>Order Status</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OrgID</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_OrgID</shortDescription>
+        <value>Org ID</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_OverrideTermsMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI OverrideTermsMsg</shortDescription>
+        <value>To override the terms of this contract, please specify the new values below.  Note that these terms will be applied to all products on this order.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_ReductionLegalTxt</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_ReductionLegalTxt</shortDescription>
+        <value>By submitting below, you are confirming that a corresponding order was received for this customer.  You agree to be bound by the terms and conditions of and be a party to this agreement. You warrant that you are at least eighteen years old and that you have the legal capacity to enter into contracts. If you are entering into this Agreement on behalf of a company, organization, or other entity, then (a) &quot;you&quot; includes you and that entity, and (b) you represent and warrant that you are an authorized representative of the entity with the authority to bind the entity to this Agreement, and that you agree to this Agreement on the entity’s behalf.</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_ReductionMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_ReductionMsg</shortDescription>
+        <value>This order will reduce the following products for</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_SearchMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_SearchMsg</shortDescription>
+        <value>Search by Org ID or Customer Name</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_SubmitNewOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_SubmitNewOrder</shortDescription>
+        <value>Submit New Order</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_Title</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_Title</shortDescription>
+        <value>Channel Order App</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_UpgradeMsg</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_UpgradeMsg</shortDescription>
+        <value>This order will upgrade the following products for</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_View</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI_View</shortDescription>
+        <value>View</value>
+    </labels>
+    <labels>
+        <fullName>OrderUI_ViewOrder</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderUI ViewOrder</shortDescription>
+        <value>View Order</value>
+    </labels>
+    <labels>
+        <fullName>Order_Contents</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Contents</shortDescription>
+        <value>Order Contents</value>
+    </labels>
+    <labels>
+        <fullName>Order_Created</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Created</shortDescription>
+        <value>Order Created</value>
+    </labels>
+    <labels>
+        <fullName>Order_Details</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Details</shortDescription>
+        <value>Order Details</value>
+    </labels>
+    <labels>
+        <fullName>Order_Details_Header</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Details Header</shortDescription>
+        <value>Order Details - {0}</value>
+    </labels>
+    <labels>
+        <fullName>Order_Recalled</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Recalled</shortDescription>
+        <value>The order was successfully recalled.</value>
+    </labels>
+    <labels>
+        <fullName>Order_Submitted</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order Submitted</shortDescription>
+        <value>The order was successfully submitted.</value>
+    </labels>
+    <labels>
+        <fullName>Order_Type_Already_submitted_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order type already submitted</shortDescription>
+        <value>You can&apos;t have more than one order of this type for the customer. If the existing order hasn&apos;t processed, you can edit or recall it and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Order_cannot_be_resubmitted_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order cannot be resubmitted</shortDescription>
+        <value>This order was processed. You can&apos;t resubmit it.</value>
+    </labels>
+    <labels>
+        <fullName>Order_detail_diff_Contract_Terms_as_PCCT_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order detail has different Contract Term as PCCT</shortDescription>
+        <value>Contract terms are out of date for one or more products on this order. Refresh product details and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Order_detail_diff_Contract_Terms_as_PPC_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order detail has different Contract Term as PPC</shortDescription>
+        <value>Product catalog terms are out of date for one or more products on this order. Refresh product details and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Order_detail_fields_not_overridable_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order detail fields not overridable</shortDescription>
+        <value>This order is missing contract term details. Verify contract length, renewal and cancellation terms, and renewal status, then try again.</value>
+    </labels>
+    <labels>
+        <fullName>Order_details_are_required_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order details required</shortDescription>
+        <value>This order is missing required details for one or more products. Verify product details and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Order_details_diff_Contract_Terms_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order details has different Contract Term between themselves</shortDescription>
+        <value>The products on this order must have the same contract terms. Verify that contract length, renewal and cancellation terms, and renewal status are the same, then try again.</value>
+    </labels>
+    <labels>
+        <fullName>Order_should_be_submitted_as_edit_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order should be submitted as edit</shortDescription>
+        <value>This order is waiting to be processed. To make changes, edit the order and resubmit it.</value>
+    </labels>
+    <labels>
+        <fullName>PartnerContractTerm_out_of_sync_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Partner Contract Term Out of sync</shortDescription>
+        <value>The contract on this order doesn&apos;t have the latest terms. Go to the contract terms record to refresh term details, then try again.</value>
+    </labels>
+    <labels>
+        <fullName>PartnerOrderRenewalStartDateNotValid</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PartnerOrderRenewalStartDateNotValid</shortDescription>
+        <value>Partner order start date does not align with the contract renewal date.</value>
+    </labels>
+    <labels>
+        <fullName>Partner_order_required_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Partner Order Required</shortDescription>
+        <value>The Partner Order section is required to submit a partner order</value>
+    </labels>
+    <labels>
+        <fullName>Product_Id_not_valid_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Id is not valid</shortDescription>
+        <value>One or more products on this order isn&apos;t valid, or we didn&apos;t recognize its product code. Log a case in the Partner Community and include the names of the products on the order.</value>
+    </labels>
+    <labels>
+        <fullName>Product_OR_Contract_Not_Active</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product or Contract not Active</shortDescription>
+        <value>We couldn&apos;t process this order because it contains a product or contract that&apos;s no longer active. Verify that the contract and products on the order are active, and then try again. For more help, log a case in the Partner Community.</value>
+    </labels>
+    <labels>
+        <fullName>Queue_has_different_order_type_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue has different order type</shortDescription>
+        <value>Another order is processing for this customer and product. Wait for the existing order to be processed before submitting this order.</value>
+    </labels>
+    <labels>
+        <fullName>RequiredInput</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RequiredInput</shortDescription>
+        <value>{0} is required. Please enter a value.</value>
+    </labels>
+    <labels>
+        <fullName>Required_Field_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Field</shortDescription>
+        <value>{0} is required.</value>
+    </labels>
+    <labels>
+        <fullName>SFDC_Invoice_description_too_long</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SFDC Invoice description too long</shortDescription>
+        <value>The SFDC Invoice description is too long (more than 100 characters), please shorten it.</value>
+    </labels>
+    <labels>
+        <fullName>SFDC_Line_Item_Invoice_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SFDC Line Item Invoice Description</shortDescription>
+        <value>SFDC Line Item Invoice Description</value>
+    </labels>
+    <labels>
+        <fullName>Select_Contract</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Contract</shortDescription>
+        <value>Select contract ...</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderApiKeyError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderApiKeyError</shortDescription>
+        <value>There is no Partner API Key defined for the Contract Term selected for this Service Order.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderCustomSettingError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderCustomSettingError</shortDescription>
+        <value>Salesforce.com Integration Credentials have not been defined.  Please contact your system administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderDraftStatus</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderDraftStatus</shortDescription>
+        <value>Draft</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderErrorStatus</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderErrorStatus</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderISVforceError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderISVforceError</shortDescription>
+        <value>Your order contains products for more than one ISVforce application. You must submit a separate order for each application.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderInsufficientAccessServiceOrderDetailFields</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderInsufficientAccessServiceOrderDetailFields</shortDescription>
+        <value>An error occurred while submitting your order.  Please provide the following error key to salesforce.com (Error Key: Insufficient access on Service Order Detail fields.)</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderInsufficientAccessServiceOrderFields</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderInsufficientAccessServiceOrderFields</shortDescription>
+        <value>An error occurred while submitting your order.  Please provide the following error key to salesforce.com (Error Key: Insufficient access on Service Order fields.)</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationAcceptEmailFromError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationAcceptEmailFromError</shortDescription>
+        <value>The &quot;accept from&quot; field on the provided email address should be empty. Please  go to setup and remove values in the accept from field for this email service&apos;s email address.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCredsOrgEmailAddress</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationCredsOrgEmailAddress</shortDescription>
+        <value>Partner Org Email Address:</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCredsPass</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service order integration credentials password</shortDescription>
+        <value>Password:</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCredsSave</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service order integration credentials save button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCredsTest</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service order integration credentials test connection button</shortDescription>
+        <value>Test Connection</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCredsTitle</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service order integration credentials title</shortDescription>
+        <value>Partner Order</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCredsURL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service order integration credentials login url</shortDescription>
+        <value>Login URL:</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCredsUser</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service order integration credentials username</shortDescription>
+        <value>Username:</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCreds_DefaultEndPoint</fullName>
+        <categories>Service Order Integration Credentials</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationCreds_DefaultEndPoint</shortDescription>
+        <value>https://org62.my.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCreds_DefaultURL</fullName>
+        <categories>Service Order Integration Credentials</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationCreds_DefaultURL</shortDescription>
+        <value>https://login.salesforce.com/services/Soap/u/26.0</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCreds_Endpoint</fullName>
+        <categories>Service Order Integration Credentials</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationCreds_Endpoint</shortDescription>
+        <value>Endpoint URL:</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCreds_EndpointHelpTxt</fullName>
+        <categories>Service Order Integration Credentials</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationCreds_EndpointHelpTxt</shortDescription>
+        <value>To send orders to production, set the end point to https://org62.my.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCreds_ServiceType</fullName>
+        <categories>Service Order Integration Credentials</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationCreds_ServiceType</shortDescription>
+        <value>Service Type:</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationCreds_Subtitle</fullName>
+        <categories>Service Order Integration Credentials</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationCreds_Subtitle</shortDescription>
+        <value>SFDC Integration Credentials</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderIntegrationOrgEmailAddressError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderIntegrationOrgEmailAddressError</shortDescription>
+        <value>The email address does not match the email configured in the email service within setup.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderInvalidLoginError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderInvalidLoginError</shortDescription>
+        <value>Your login attempt has failed. The username or password may be incorrect, or your location may be restricted. Please contact salesforce.com for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderInvalidUrlError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderInvalidUrlError</shortDescription>
+        <value>Your login attempt has failed. The URL provided is incorrect. Please contact the administrator for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderNoAccessToIntegrationCredsPage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderNoAccessToIntegrationCredsPage</shortDescription>
+        <value>You do not have Privileges to access this page.  Only System Administrators with Customize Application permissions may access this page.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderNoOrderDetailError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderNoOrderDetailError</shortDescription>
+        <value>Service Order must contain at least one Service Order Detail (product) record.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderNoOrderStatusAllowed</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderNoOrderStatusAllowed</shortDescription>
+        <value>This Service Order cannot be resubmitted. If changes are required to this service order please contact salesforce.com.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderSaveCredsFieldRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderSaveCredsFieldRequired</shortDescription>
+        <value>{0} You must enter a value.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderSaveCredsSuccessful</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderSaveCredsSuccessful</shortDescription>
+        <value>Thank you, the information you provided has been updated.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderStartDateError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderStartDateError</shortDescription>
+        <value>Service start date must be equal or greater than today.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderSubmittedStatus</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderSubmittedStatus</shortDescription>
+        <value>Submitted</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderSyncConfig</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderSyncConfig</shortDescription>
+        <value>Refresh Data</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderTermsAndConditions</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderTermsAndConditions</shortDescription>
+        <value>By clicking the &quot;OK&quot; button below, you agree to be bound by the terms and conditions of and be a party to this agreement.  You warrant that you are at least eighteen years old and that you have the legal capacity to enter into contracts.  \nIf you are entering into this Agreement on behalf of a company, organization, or other entity, then (a) &quot;you&quot;  includes you and that entity, and (b) you represent and warrant that you are an authorized representative of the entity with the authority to bind the entity to this Agreement, and that you agree to this Agreement on the entity’s behalf.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderTestConnectionSuccessful</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderTestConnectionSuccessful</shortDescription>
+        <value>The test connection was successful.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderTimeoutError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderTimeoutError</shortDescription>
+        <value>The Service Order submission failed to complete within the allowed time.  Please retry your order submission.  If you continue to experience issues please contact salesforce.com.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderUnauthorizedEndpointError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderUnauthorizedEndpointError</shortDescription>
+        <value>Unauthorized endpoint.  Please contact your system administrator or verify that the Remote Site Settings have been properly configured.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrderUnknownError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrderUnknownError</shortDescription>
+        <value>An error occurred while processing your order.  Please contact salesforce.com for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceOrder_MngPkgName</fullName>
+        <categories>Service Order Integration Credentials</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ServiceOrder_MngPkgName</shortDescription>
+        <value>coa_test_svc</value>
+    </labels>
+    <labels>
+        <fullName>Service_And_Order_Dates</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service and Order Dates</shortDescription>
+        <value>Service and Order Dates</value>
+    </labels>
+    <labels>
+        <fullName>Service_Order_Not_Found</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service Order Not Found</shortDescription>
+        <value>No service order was found with the id {0}.  Check that the record exists and that you have permission to access it.</value>
+    </labels>
+    <labels>
+        <fullName>Sync_Btn_Error</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sync Btn Error</shortDescription>
+        <value>There was an unexpected error on the data sync process.</value>
+    </labels>
+    <labels>
+        <fullName>Terms_And_Conditions</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Terms &amp; Conditions</shortDescription>
+        <value>Terms &amp; Conditions</value>
+    </labels>
+    <labels>
+        <fullName>URLDoesntMatchWithServerUsername</fullName>
+        <categories>COA, Partner Portal</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The specified Endpoint URL doesn&apos;t match with server username</shortDescription>
+        <value>The specified Endpoint URL doesn&apos;t match with server username</value>
+    </labels>
+    <labels>
+        <fullName>View_Product_Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Show Partner Product Catalog information in a new tab</shortDescription>
+        <value>View Product Details</value>
+    </labels>
+    <labels>
+        <fullName>Zero_Active_Contract_validation_response</fullName>
+        <categories>org62, Response message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Only one active contract validation</shortDescription>
+        <value>We couldn&apos;t find an active contract for this customer. Submit an Initial order instead. If you already submitted an order for this customer and want to make changes, log a case in the Partner Community. When you log the case, provide the ID of the original order.</value>
+    </labels>
+    <labels>
+        <fullName>configureOrderDetailsWizardStepLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label displayed in wizard step navigation</shortDescription>
+        <value>CONFIGURE DETAILS</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTableAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assistive text label for customerRelatedProducts table action button</shortDescription>
+        <value>STATUS</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTableColumn_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product label for selectProducts table</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTableColumn_Product</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product label for customerRelatedProducts table</shortDescription>
+        <value>PRODUCT</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTableColumn_Quantity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quantity label for customerRelatedProducts table</shortDescription>
+        <value>QUANTITY</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTableColumn_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status label for customerRelatedProducts table</shortDescription>
+        <value>STATUS</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTableColumn_TotalPrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Price label for customerRelatedProducts table</shortDescription>
+        <value>TOTAL PRICE</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTable_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product label for selectProducts table</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>customerRelatedProductsTable_Product</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product label for customerRelatedProducts table</shortDescription>
+        <value>PRODUCT</value>
+    </labels>
+    <labels>
+        <fullName>description_Text_ItemTable</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description Text for the item table component</shortDescription>
+        <value>Description :</value>
+    </labels>
+    <labels>
+        <fullName>editTermsForProductModal_Billing_Frequency</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>editTermsForProductModal Billing Frequency</shortDescription>
+        <value>Billing Frequency</value>
+    </labels>
+    <labels>
+        <fullName>editTermsForProductModal_Cancelation_Terms_days</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>editTermsForProductModal Cancelation Terms (days)</shortDescription>
+        <value>Cancelation Terms (days)</value>
+    </labels>
+    <labels>
+        <fullName>editTermsForProductModal_Contract_Auto_Renew</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>editTermsForProductModal Contract Auto Renew</shortDescription>
+        <value>Contract Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>editTermsForProductModal_Contract_Length_months</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>editTermsForProductModal Contract Length (months)</shortDescription>
+        <value>Contract Length (months)</value>
+    </labels>
+    <labels>
+        <fullName>editTermsForProductModal_Edit_Terms_for_Product</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>editTermsForProductModal Edit Terms for Product</shortDescription>
+        <value>Edit Terms for {0}</value>
+    </labels>
+    <labels>
+        <fullName>editTermsForProductModal_Renewal_Terms_months</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>editTermsForProductModal Renewal Terms (months)</shortDescription>
+        <value>Renewal Terms (months)</value>
+    </labels>
+    <labels>
+        <fullName>edit_Description</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Description Text</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>errorWhileRetrievingProducts</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error while retrieving products</shortDescription>
+        <value>An error has occurred while retrieving products and the action couldn&apos;t be completed. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a cross-object fieldsset is not allowed and attempted.</shortDescription>
+        <value>Cross-object fields not allowed and field &quot;{0}&quot; is a cross-object field.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_fieldset_wrong_sobject_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a field set for a different sobject type.</shortDescription>
+        <value>Field set &quot;{0}&quot; is not for SObject type &quot;{1}&quot;</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_recursive_subquery_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to nest subqueries.</shortDescription>
+        <value>Invalid call to subselectQuery.  You may not add a subselect query to a subselect query.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_subquery_invalid_relationship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to create a subquery from an invalid relationship.</shortDescription>
+        <value>Invalid call to subselectQuery.  Invalid relationship for table.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fflib_security_error_field_not_insertable</shortDescription>
+        <value>You do not have permission to insert field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fflib_security_error_field_not_readable</shortDescription>
+        <value>You do not have permission to read the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fflib_security_error_field_not_updateable</shortDescription>
+        <value>You do not have permission to update the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_deletable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fflib_security_error_object_not_deletable</shortDescription>
+        <value>You do not have permission to delete {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fflib_security_error_object_not_insertable</shortDescription>
+        <value>You do not have permission to insert {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fflib_security_error_object_not_readable</shortDescription>
+        <value>You do not have permission to read {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fflib_security_error_object_not_updateable</shortDescription>
+        <value>You do not have permission to update {0}</value>
+    </labels>
+    <labels>
+        <fullName>finishAndSubmitWizardStepLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label displayed in wizard step navigation</shortDescription>
+        <value>FINISH &amp; SUBMIT</value>
+    </labels>
+    <labels>
+        <fullName>footerAvailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerAvailable</shortDescription>
+        <value>available</value>
+    </labels>
+    <labels>
+        <fullName>footerLicToReduce</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerLicToReduce</shortDescription>
+        <value>Total Licenses Removed:</value>
+    </labels>
+    <labels>
+        <fullName>footerNewTotal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerNewTotal</shortDescription>
+        <value>New Total:</value>
+    </labels>
+    <labels>
+        <fullName>footerOutOf</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerOutOf</shortDescription>
+        <value>out of</value>
+    </labels>
+    <labels>
+        <fullName>footerPreviousTotal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerPreviousTotal</shortDescription>
+        <value>Previous Total:</value>
+    </labels>
+    <labels>
+        <fullName>footerPriorReduction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerPriorReduction</shortDescription>
+        <value>Prior Reductions:</value>
+    </labels>
+    <labels>
+        <fullName>footerTotalLic</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerTotalLic</shortDescription>
+        <value>Total Licenses (Current Term):</value>
+    </labels>
+    <labels>
+        <fullName>footerTotalLicNextTerm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerTotalLicNextTerm</shortDescription>
+        <value>Total Licenses (Next Term):</value>
+    </labels>
+    <labels>
+        <fullName>invalidContractTermIdSpecified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Partner Contract Term Id specified is not a valid Id</shortDescription>
+        <value>Partner Contract Term Id specified is not a valid Id</value>
+    </labels>
+    <labels>
+        <fullName>itemTable_Name</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The name of the Item table component</shortDescription>
+        <value>Order Contents</value>
+    </labels>
+    <labels>
+        <fullName>line_Item_Description_UIText</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>line Item Description UIText</shortDescription>
+        <value>Line Item Description</value>
+    </labels>
+    <labels>
+        <fullName>loading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading label for gif icon</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>priceUnitMonth</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>priceUnitMonth</shortDescription>
+        <value>PRICE (UNIT/MONTH)</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsTableColumn_AddProduct</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add product label for add checkbox input in selectProducts table</shortDescription>
+        <value>Add product</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsTableColumn_App</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>App label for selectProducts table</shortDescription>
+        <value>APP</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsTableColumn_CurrentLicenses</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Current Quantity label for selectProducts table</shortDescription>
+        <value>CURRENT QUANTITY</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsTableColumn_Pricebook</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pricebook label for selectProducts table</shortDescription>
+        <value>PRICEBOOK</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsTableColumn_Pricing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pricing label for selectProducts table</shortDescription>
+        <value>PRICING</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsTableColumn_Product</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product label for selectProducts table</shortDescription>
+        <value>PRODUCT</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsTableColumn_Unit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unit label for selectProducts table</shortDescription>
+        <value>UNIT</value>
+    </labels>
+    <labels>
+        <fullName>selectProductsWizardStepLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label displayed in wizard step navigation</shortDescription>
+        <value>SELECT PRODUCTS</value>
+    </labels>
+    <labels>
+        <fullName>startOrderWizardStepLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label displayed in wizard step navigation</shortDescription>
+        <value>START ORDER</value>
+    </labels>
+    <labels>
+        <fullName>totalToAdd</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerTotalToAdd</shortDescription>
+        <value>Total Added:</value>
+    </labels>
+    <labels>
+        <fullName>totalToRenew</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerTotalToRenew</shortDescription>
+        <value>Total Renewed:</value>
+    </labels>
+    <labels>
+        <fullName>totalToUpgrade</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>footerTotalToUpgrade</shortDescription>
+        <value>Total Upgraded:</value>
+    </labels>
+    <labels>
+        <fullName>wizardNavigationUIBtn_Next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next label button for service order wizard navigation</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>wizardNavigationUIBtn_Previous</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back label button for service order wizard navigation</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>wizardNavigationUIBtn_Recall</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recall label button for service order wizard navigation</shortDescription>
+        <value>Recall Order</value>
+    </labels>
+    <labels>
+        <fullName>wizardNavigationUIBtn_ResubmitOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Resubmit Order label button for service order wizard navigation</shortDescription>
+        <value>Resubmit</value>
+    </labels>
+    <labels>
+        <fullName>wizardNavigationUIBtn_SaveAsDraft</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Draft label button for service order wizard navigation</shortDescription>
+        <value>Save Draft</value>
+    </labels>
+    <labels>
+        <fullName>wizardNavigationUIBtn_SubmitOrder</fullName>
+        <categories>COA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit Order label button for service order wizard navigation</shortDescription>
+        <value>Submit</value>
+    </labels>
+</CustomLabels>

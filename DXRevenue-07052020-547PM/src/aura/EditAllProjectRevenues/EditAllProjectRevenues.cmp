@@ -1,0 +1,49 @@
+<aura:component access="global" controller="projectionRevenueUpdateController" Implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction,force:appHostable">
+  <!--Init handler which is call doInit js function on component Load-->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+ 
+    
+ <!--Aura Attribute for store Contact Object List as Array-->   
+    <aura:attribute name="oppId" type="String"/>
+    <aura:attribute name="conId" type="String"/>
+    <aura:attribute name="projectionRevList" type="Projection_Revenue__c[]"/>
+ <!--Header Part-->       
+    <div class="slds-page-header">
+        <h1 class="slds-page-header__title">Edit All Child Records</h1>
+   </div>   
+ <!--Table Part-->          
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <thead>
+            <tr class="slds-text-title_caps">               
+                <th scope="col">
+                    <div class="slds-truncate" title="Month">Month</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="Team Head Count">Team Head Count</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="Revenue">Amount</div>
+                </th>
+            </tr>
+        </thead>  
+        <tbody>
+           
+            <aura:iteration items="{!v.projectionRevList}" var="projectionRevInstance" indexVar="rowIndex">
+          <tr class="slds-text-title_caps">     
+        <td>
+            <ui:outputText class="slds-input" value="{!projectionRevInstance.Month_of_Projection__c}"/>
+        </td>
+        <td>
+            <ui:inputText class="slds-input" value="{!projectionRevInstance.Team_Head_Count__c}"/>
+        </td>
+        <td>
+            <ui:inputPhone class="slds-input" value="{!projectionRevInstance.Revenue__c}"/>
+        </td>
+    </tr>
+     </aura:iteration>
+        </tbody>
+    </table>
+    <br/>
+    <!--Save Button which is call Save js function on click -->
+    <button class="slds-button slds-button_brand" onclick="{!c.Save}">Save</button>
+</aura:component>

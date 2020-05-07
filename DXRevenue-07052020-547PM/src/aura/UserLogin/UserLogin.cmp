@@ -1,0 +1,76 @@
+<aura:component controller="Login" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"  access="global" >
+	 <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name = "DisplayError" type = "String"/>
+    <aura:attribute name = "UserName" type = "String"/>
+    <aura:attribute name = "Password" type = "String"/>
+    <aura:attribute name = "EnterPassword" type = "String"/>
+    <aura:attribute name = "ConfirmPassword" type = "String"/>
+   
+    
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+	
+<div class="test">
+    
+    <div class="slds-form-element slds-align_absolute-center slds-m-top_x-large" >
+        
+        <!--<div style="background-color:powderblue;height: 606px;" class="slds-form-element slds-align_absolute-center slds-m-top_x-large" >-->
+                            
+            
+            <div class=" slds-large-size_4-of-12">
+          
+                  <div style="text-align:center;">
+      
+             <img style="" src="{!$Resource.ITCLogo}"/>
+                  </div>
+
+            <form>	
+           
+                <div>
+                    
+                    <div class="slds-align_absolute-center slds-m-top_small slds-text-heading_large" >
+                        <span>DX Revenue Portal</span>
+                    </div> 
+                    <div aura:id="loginsection">
+                        <div class="slds-form-element__control">
+                          
+                            <lightning:input label="User Name" name="abc"  id="UserName" placeholder="User Name" value="{!v.UserName}" />
+                        </div>                
+                        <div class="slds-form-element__control">
+                            <lightning:input label="Password" type="password" name="abc" id="Password"  placeholder="Password" value="{!v.Password}" />
+                        </div>
+                        <div class="slds-align_absolute-center slds-m-top_small slds-text-heading_small">
+                            <ui:outputText  value="{!v.DisplayError}" />
+                        </div>               
+                        <div class="slds-align_absolute-center" style="height:4rem">
+                            
+                            <lightning:button variant="success" label="Login" onclick="{!c.loginPage}" />     
+                            <!-- <lightning:button variant="success" label="Forgot Password" onclick="{!c.forgotpassword}"/> -->
+                        </div>                        
+                    </div>
+                    <div aura:id="forgotpassword">
+                        <div class="slds-form-element__control">
+                            <lightning:input label="User Name" name="abc" id="UserName1" placeholder="User Name" value="{!v.UserName}" />
+                        </div>                        
+                        <div class="slds-form-element__control">
+                            <lightning:input label="Enter NewPassword"  id="Password1"  placeholder="EnterPassword" value="{!v.EnterPassword}" />
+                        </div>                        
+                        <div class="slds-form-element__control">
+                            <lightning:input label="ConfirmPassword"   id="Password2"  placeholder="ConfirmPassword" value="{!v.ConfirmPassword}" />
+                        </div>
+                        <div class="slds-align_absolute-center slds-m-top_small slds-text-heading_small">
+                            <ui:outputText  value="{!v.DisplayError}" />
+                        </div> 
+                        <div class="slds-align_absolute-center" style="height:4rem">                            
+                            <lightning:button variant="success" label="Submit" onclick="{!c.save}" />  
+                            <lightning:button variant="success" label="Cancel" onclick="{!c.Cancel}" />        
+                        </div>                       
+                    </div>                   
+                </div>                
+            </form>
+        </div>
+    </div>
+    </div>
+   
+</aura:component>
