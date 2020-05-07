@@ -15,7 +15,6 @@
                 
                 component.set('v.oppProjRevWrapperList', wrapdata);
                 
-                
                 console.log('$$$JSON='+JSON.stringify(response.getReturnValue()));
             }
         });
@@ -39,7 +38,8 @@
         
         function resetTimer() {
             clearTimeout(time);
-            time = setTimeout(logout,60000);  // time is in milliseconds
+            time = setTimeout(logout,180000);  // time is in milliseconds
+            //modified from 1 min to 3 mins
         }
     },
     
