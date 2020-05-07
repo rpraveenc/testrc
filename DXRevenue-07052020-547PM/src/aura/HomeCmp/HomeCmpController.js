@@ -39,7 +39,7 @@
         function resetTimer() {
             clearTimeout(time);
             time = setTimeout(logout,180000);  // time is in milliseconds
-            //modified from 1 min to 3 mins
+            //modified from 1 min to 3 mins - Praveen Ramachandra
         }
     },
     
