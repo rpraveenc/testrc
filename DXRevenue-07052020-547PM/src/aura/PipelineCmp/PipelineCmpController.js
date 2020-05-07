@@ -39,7 +39,7 @@
         
         function resetTimer() {
             clearTimeout(time);
-            time = setTimeout(logout,60000);  // time is in milliseconds
+            time = setTimeout(logout,180000);  // time is in milliseconds
         }
     },
       
