@@ -4,94 +4,108 @@
     <aura:attribute name="na" type="String" default="NA"/>
     <aura:attribute name="oppProjRevWrapperList" type="oppProjectionRevenuesWrapper[]"/>
     <aura:attribute name="success" type="boolean" default="false"/>
-    <aura:attribute name="firstName" type="String"/>
-    <aura:attribute name="lastName" type="String"/>
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
-    <!-- <aura:handler name ="init" value="{!this}" action="{!c.SessionTimeOut}"/> -->
+    <aura:attribute name="failure" type="boolean" default="false"/>
+    <aura:attribute name="errorMessage" type="String"/>
+    <aura:attribute name="spinner" type="Boolean" default="false"/>
+    <aura:attribute name="dmName" type="String"/>
     
-    <div class="slds-box">
-       
-        <div style="text-align:left;max-width: 12%;">
-      
-             <img style="" src="{!$Resource.ITCLogo}" />
-                  </div>
-         <p> {!v.firstName},{!v.lastName} 
-            </p> 
-          <div class="slds-float_right" style ="margin-top: -80px;margin-right: 10px;">
-         <lightning:button variant="brand" label="Logout"  iconPosition="centre"    onclick="{!c.logout}"/>
-      </div>    
-        
-           <div class="slds-grid slds-wrap" style="margin-bottom:10px;">
-            <div class="slds-col slds-size_12-of-12 slds-medium-size_4-of-12 slds-large-size_4-of-12 custElement">
-                <h2 style="font-size:18px;"> DX Revenue Projections - Pipeline</h2>&nbsp;
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name ="init" value="{!this}" action="{!c.SessionTimeOut}"/>
+    
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+    
+    <aura:if isTrue="{!v.spinner}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading...</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
             </div>
         </div>
-      <div class="slds-grid slds-wrap">
-      	<table width="100%" border="0"> 
-      		  <aura:iteration items="{!v.oppProjRevWrapperList}" var="oppPRWrap" indexVar="idx">
-      		  <tr colspan="2"><td> &nbsp;</td></tr>
-      		<tr> 
-      			<td width="15%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label"> <b>Account</b>  </h3> </td>
-                <td width="85%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label">  <b><lightning:formattedText value="{!oppPRWrap.opp.Account.Name}"/></b></h3></td>
-      		</tr>
-      		<tr> 
-                <td width="15%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label"> <b>Project Name</b> </h3> </td>
-      			<td width="85%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label"> <b> <lightning:formattedText value="{!oppPRWrap.opp.Name}"/></b></h3></td>
-      		</tr>
-      		<tr> 
-      			<td width="100%" align="left" colspan="2"> 
-      				<table border="0" border-color="grey" class="slds-table slds-table--bordered slds-table--striped slds-table--cell-buffer slds-table--fixed-layout">
-      				<tr align="center" class="slds-text-heading--label">
-							<td width="10%"> &nbsp; </td>
-							 	<td width="5%">Apr</td>
-								<td width="5%" >May</td>
-								<td width="5%">Jun</td>
-								<td width="5%">Jul</td>
-								<td width="5%">Aug</td>
-								<td width="5%">Sep</td>
-								<td width="5%">Oct</td>
-								<td width="5%">Nov</td>
-								<td width="5%">Dec</td>
-								<td width="5%">Jan</td>
-								<td width="5%">Feb</td>
-								<td width="5%">Mar</td>
-						</tr>
-						<tr >
-							<td class="slds-text-heading--label" align="left">  Amount <b>(<lightning:formattedText  value="{!oppPRWrap.opp.CurrencyIsoCode}"/>) </b></td>
-							<aura:iteration items="{!oppPRWrap.months}" var="mon" indexVar="idx">
-                                <td>
-                                    <aura:iteration items="{!oppPRWrap.projRevList}" var="pr" indexVar="idx">
-                                        <aura:if isTrue="{!pr.Month_of_Projection__c == mon}">
-                                            <lightning:input name="revenueInput" type="number" value="{!pr.Revenue__c}"/>
-                                        </aura:if>
-                                    </aura:iteration>
-                                </td>                   
-                            </aura:iteration> 
-							</tr>
-						<tr>
-							<td class="slds-text-heading--label" align="left"> Head Count</td>
-							<aura:iteration items="{!oppPRWrap.months}" var="mon" indexVar="idx">
-                                <td>
-                                    <aura:iteration items="{!oppPRWrap.projRevList}" var="pr" indexVar="idx">
-                                        <aura:if isTrue="{!pr.Month_of_Projection__c == mon}">
-                                            <lightning:input name="teamCount" type="number" value="{!pr.Team_Head_Count__c}"/>
-                                        </aura:if>
-                                    </aura:iteration>
-                                </td>                  
-                            </aura:iteration> 
-						</tr>
-      				</table>
-      			</td>
-      		</tr>
-      		<tr colspan="2"><td> &nbsp;</td></tr>
-      		</aura:iteration>
-      	</table>
-      </div>
+    </aura:if>
     
+    <div class="slds-box">
+        
+        <div style="text-align:center;max-width:100%;">
+            <center><img src="{!$Resource.ITCLogo}" /></center>&nbsp;
+        </div>
+        <center><h1 style="font-size:18px;"><b>{!v.dmName}</b></h1> </center>&nbsp;
+        <div class="slds-float_right" style ="margin-top: -80px;margin-right: 10px;">
+            <lightning:button class="slds-button" variant="brand" label="Navigate to Project Delivery" onclick="{!c.navigateToProjectDeliveryPage}"/>
+            <lightning:button class="slds-button" variant="destructive" label="Logout"   onclick="{!c.logout}"/>
+        </div>    
+        
+        <div class="slds-grid slds-wrap" style="margin-bottom:10px;">
+            <div class="slds-col slds-size_12-of-12 slds-medium-size_4-of-12 slds-large-size_4-of-12 custElement">
+                <h2 style="font-size:20px;"><b> DX Revenue Projections - Pipeline</b></h2>&nbsp;
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap">
+            <table width="100%" border="0"> 
+                <aura:iteration items="{!v.oppProjRevWrapperList}" var="oppPRWrap" indexVar="idx">
+                    <tr colspan="2"><td> &nbsp;</td></tr>
+                    <tr> 
+                        <td width="15%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label"> <b>Account</b>  </h3> </td>
+                        <td width="85%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label">  <b><lightning:formattedText value="{!oppPRWrap.opp.Account.Name}"/></b></h3></td>
+                    </tr>
+                    <tr> 
+                        <td width="15%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label"> <b>Project Name</b> </h3>&nbsp; </td>
+                        <td width="85%" align="left"><h3 style="font-size:14px;" class="slds-text-heading--label"> <b> <lightning:formattedText value="{!oppPRWrap.opp.Name}"/></b></h3>&nbsp;</td>
+                    </tr>
+                    <tr> 
+                        <td width="100%" align="left" colspan="2"> 
+                            <table border="0" border-color="grey" class="slds-table slds-table--bordered slds-table--striped slds-table--cell-buffer slds-table--fixed-layout">
+                                <tr align="center" class="slds-text-heading--label">
+                                    <td width="10%" style="text-align: center;"> &nbsp; </td>
+                                    <td width="5%" style="text-align: center;">Apr</td>
+                                    <td width="5%" style="text-align: center;">May</td>
+                                    <td width="5%" style="text-align: center;">Jun</td>
+                                    <td width="5%" style="text-align: center;">Jul</td>
+                                    <td width="5%" style="text-align: center;">Aug</td>
+                                    <td width="5%" style="text-align: center;">Sep</td>
+                                    <td width="5%" style="text-align: center;">Oct</td>
+                                    <td width="5%" style="text-align: center;">Nov</td>
+                                    <td width="5%" style="text-align: center;">Dec</td>
+                                    <td width="5%" style="text-align: center;">Jan</td>
+                                    <td width="5%" style="text-align: center;">Feb</td>
+                                    <td width="5%" style="text-align: center;">Mar</td>
+                                </tr>
+                                <tr >
+                                    <td class="slds-text-heading--label" align="left">  Amount <b>(<lightning:formattedText  value="{!oppPRWrap.opp.CurrencyIsoCode}"/>) </b></td>
+                                    <aura:iteration items="{!oppPRWrap.months}" var="mon" indexVar="idx">
+                                        <td>
+                                            <aura:iteration items="{!oppPRWrap.projRevList}" var="pr" indexVar="idx">
+                                                <aura:if isTrue="{!pr.Month_of_Projection__c == mon}">
+                                                    <lightning:input name="revenueInput" type="number" value="{!pr.Revenue__c}"/>
+                                                </aura:if>
+                                            </aura:iteration>
+                                        </td>                   
+                                    </aura:iteration> 
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr colspan="2"><td> &nbsp;</td></tr>
+                </aura:iteration>
+            </table>
+        </div>
+        
         <br/>
         <div>
             <div class="SaveBTN">
-                <center><lightning:button variant="Brand" class="slds-button" label="Save Projections" onclick="{!c.handleSave}"/></center>
+                <center><lightning:button variant="Brand" class="slds-button" label="Save Projections" onclick="{!c.handleSave}"/></center>&nbsp;
+                <aura:if isTrue="{!v.success}">
+                    <center><h1 style="font-size:12px;"> Records have been saved successfuly.</h1>&nbsp; </center>
+                    <center><lightning:button variant="success" class="slds-button" label="Close" onclick="{!c.handleCloseSuccess}"/></center>
+                    <aura:set attribute="else">
+                        <aura:if isTrue="{!v.failure}">
+                            <center><h1 style="font-size:14px;"><b> An error has error has occurred. Please check the debug logs or contact your system administrator.</b></h1>&nbsp; </center>
+                            <center><h1 style="font-size:13px;">{!v.errorMessage}</h1>&nbsp; </center>
+                            <center><lightning:button variant="destructive" class="slds-button" label="Close" onclick="{!c.handleCloseFailure}"/></center>
+                        </aura:if>
+                    </aura:set>
+                </aura:if>
             </div>
         </div> 
     </div>
