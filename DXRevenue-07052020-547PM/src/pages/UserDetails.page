@@ -9,11 +9,12 @@
     var recordId  = "{!$CurrentPage.parameters.Id}";
     //alert(recordId);
     $Lightning.use("c:HomeApp", function() {
-        $Lightning.createComponent("c:HomeCmp",
-             {"conId":recordId},
-        "LightningComponentid",function(cmp) {
-            
-        });
+        $Lightning.createComponent(
+            "c:HomeCmp",
+            {"conId":recordId},
+            "LightningComponentid",function(cmp) {
+                
+            });
     });
     </script>
 </apex:page>
