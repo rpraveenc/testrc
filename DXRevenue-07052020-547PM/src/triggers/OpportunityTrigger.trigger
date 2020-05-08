@@ -2,7 +2,10 @@ trigger OpportunityTrigger on Opportunity (before insert, after insert, after up
     
     if(Trigger.isBefore ){
         if(Trigger.isInsert){
-            OpportunityTriggerHandler.validateEndDate(Trigger.new);
+            OpportunityTriggerHandler.processBeforeInsert(Trigger.new,null);
+        }
+        if(Trigger.isUpdate){
+            OpportunityTriggerHandler.processBeforeUpdate(Trigger.new,Trigger.oldMap);
         }
     }
     if(Trigger.isAfter ){
