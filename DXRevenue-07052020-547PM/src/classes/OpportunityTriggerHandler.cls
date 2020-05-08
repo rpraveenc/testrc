@@ -20,37 +20,54 @@ public  class OpportunityTriggerHandler {
         }
     }
     
+    public static void processBeforeUpdate(List<Opportunity> oppList,Map<ID, Opportunity> oldValuesMap) {
+        try{
+            validateEndDate(oppList,oldValuesMap);
+        }catch(Exception exc){
+            throw exc; 
+        }
+    }
+    
+    public static void processBeforeInsert(List<Opportunity> oppList,Map<ID, Opportunity> oldValuesMap) {
+        try{
+            validateEndDate(oppList,null);
+        }catch(Exception exc){
+            throw exc; 
+        }
+    }
+    
+    
     public static void UpdateRevenueProjectionNames(List<Opportunity> oppList, Map<ID,Opportunity> oldValuesMap){
-    	Map<String, String> newOPIDOpp = new Map<String,String>();
-    	for(Opportunity oppRec : oppList){
-    		if(oppRec.OP_Project_Id__C != (oldValuesMap.get(oppRec.Id)).OP_Project_Id__C){
-    			newOPIDOpp.put(oppRec.Id, oppRec.OP_Project_Id__C);
-    		}
-    	}
-    	if(newOPIDOpp.size() > 0){
-	    	List<Projection_Revenue__c> revenueProj = [select Id, Name,Opportunity__c from Projection_Revenue__c where Opportunity__c =: newOPIDOpp.keyset() for update];
-	    	List<Projection_Revenue__c> revenueProjUpdate = new List<Projection_Revenue__c>();
-	    	if(revenueProj != null){
-	    		for(Projection_Revenue__c revenueProjRec : revenueProj){
-	    			String newName = revenueProjRec.Name;
-	    			System.debug('OLD - '+newName);
-	    			if(newName.contains('PRJID')){
-	    				newName = newName.replace('PRJID',newOPIDOpp.get(revenueProjRec.Opportunity__c));
-	    			}else{
-	    				String oldOPID = newName.substringBefore('-');
-	    				System.debug('OLD PID - '+oldOPID);
-	    				newName = newName.replace(oldOPID,newOPIDOpp.get(revenueProjRec.Opportunity__c));
-	    			}
-	    			System.debug('NEW - '+newName);
-	    			revenueProjRec.Name = newName;
-	    			revenueProjUpdate.add(revenueProjRec);
-	    		}
-	    		System.debug('REVENU PROJ ----'+revenueProjUpdate);
-	    		if(revenueProjUpdate.size() > 0){
-	    			update revenueProjUpdate;
-	    		}
-	    	}
-    	}
+        Map<String, String> newOPIDOpp = new Map<String,String>();
+        for(Opportunity oppRec : oppList){
+            if(oppRec.OP_Project_Id__C != (oldValuesMap.get(oppRec.Id)).OP_Project_Id__C){
+                newOPIDOpp.put(oppRec.Id, oppRec.OP_Project_Id__C);
+            }
+        }
+        if(newOPIDOpp.size() > 0){
+            List<Projection_Revenue__c> revenueProj = [select Id, Name,Opportunity__c from Projection_Revenue__c where Opportunity__c =: newOPIDOpp.keyset() for update];
+            List<Projection_Revenue__c> revenueProjUpdate = new List<Projection_Revenue__c>();
+            if(revenueProj != null){
+                for(Projection_Revenue__c revenueProjRec : revenueProj){
+                    String newName = revenueProjRec.Name;
+                    System.debug('OLD - '+newName);
+                    if(newName.contains('PRJID')){
+                        newName = newName.replace('PRJID',newOPIDOpp.get(revenueProjRec.Opportunity__c));
+                    }else{
+                        String oldOPID = newName.substringBefore('-');
+                        System.debug('OLD PID - '+oldOPID);
+                        newName = newName.replace(oldOPID,newOPIDOpp.get(revenueProjRec.Opportunity__c));
+                    }
+                    System.debug('NEW - '+newName);
+                    revenueProjRec.Name = newName;
+                    revenueProjUpdate.add(revenueProjRec);
+                }
+                System.debug('REVENU PROJ ----'+revenueProjUpdate);
+                if(revenueProjUpdate.size() > 0){
+                    update revenueProjUpdate;
+                }
+            }
+        }
     }
     
     
@@ -63,7 +80,7 @@ public  class OpportunityTriggerHandler {
                     System.debug('OPP ID--'+ opp.Id);
                     String oppProjectId = 'PRJID';
                     if(opp.OP_Project_Id__C != null){
-                    	oppProjectId = opp.OP_Project_Id__C;
+                        oppProjectId = opp.OP_Project_Id__C;
                     }
                     String monthIs = mapMonthNumber.get(month.substringBefore('-'));
                     String yearIs = month.substringAfterLast('-');
@@ -95,22 +112,28 @@ public  class OpportunityTriggerHandler {
         return months;
     }
     
-    public static void validateEndDate(List<Opportunity> oppList){
+    public static void validateEndDate(List<Opportunity> oppList, Map<ID,Opportunity> oldValuesMap){
+        Set<Id> recTypeIds = new Set<Id>();
+        for(RecordType r: [SELECT Id FROM RecordType WHERE SobjectType = 'Opportunity' AND DeveloperName IN ('Project_Delivery','Pipeline')]){
+            recTypeIds.add(r.Id);
+        }
         for(Opportunity opp: oppList){
-        	if(opp.RecordType.Name == 'Project Delivery'){
-	            Date endDateToValidate;
-	            if(opp.Start_Date__c.month() <= 3){
-	                endDateToValidate = Date.newInstance(opp.start_Date__c.year(),3,31);
-	            }else{
-	                endDateToValidate = Date.newInstance((opp.start_Date__c.addYears(1)).year(),3,31);
-	            }
-	            System.debug('Start Date - '+opp.Start_Date__c+'-------End Date --'+opp.End_Date__c+'---valiate with --'+endDateToValidate);
-	            if( opp.start_Date__c > opp.End_Date__c){
-	                opp.addError(' Start Date cannot be greater than the End date');
-	            }else if(opp.End_Date__c > endDateToValidate){
-	                opp.addError(' End Date cannot be greater than the current Financial year end date');
-	            }
-        	}
+            System.debug('----opp.RecordType.Name---'+opp.RecordType.Name);
+            //if(opp.RecordType.Name == 'Project_Delivery' || opp.RecordType.Name == 'Pipeline'){
+            if(recTypeIds.contains(opp.RecordTypeId)){
+                Date endDateToValidate;
+                if(opp.Start_Date__c.month() <= 3){
+                    endDateToValidate = Date.newInstance(opp.start_Date__c.year(),3,31);
+                }else{
+                    endDateToValidate = Date.newInstance((opp.start_Date__c.addYears(1)).year(),3,31);
+                }
+                System.debug('Start Date - '+opp.Start_Date__c+'-------End Date --'+opp.End_Date__c+'---valiate with --'+endDateToValidate);
+                if( opp.start_Date__c > opp.End_Date__c){
+                    opp.addError(' Start Date cannot be greater than the End date');
+                }else if(opp.End_Date__c > endDateToValidate){
+                    opp.addError(' End Date cannot be greater than the current Financial year end date');
+                }
+            }
         }
     }
 }
